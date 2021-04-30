@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Barrio&family=Bungee+Inline&family=Delius&family=Fascinate&family=Fascinate+Inline&family=Frijole&family=Major+Mono+Display&family=Monoton&family=Nova+Mono&family=Pompiere&family=Ribeye+Marrow&family=Saira+Condensed:wght@300;500&family=Sigmar+One&family=Special+Elite&family=Unica+One&display=swap');
+/*
+font-family: 'Barrio', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Delius', cursive;
+font-family: 'Fascinate Inline', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Nova Mono', monospace;
+font-family: 'Pompiere', cursive;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Saira Condensed', sans-serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Unica One', cursive; - favorit na logo
+*/
+
+body {
+    background-color: #B4D3D8;
+    font-family: 'Delius', cursive;
+    
+}
+
+p {
+    
+}
+
+#logo {
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 300%;
+    color: darkblue;
+}
+
+.introduction-card {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #f0f4f5;
+}
+
+.introduction-text {
+}
+
+.introduction-button {
+   margin-top: 30px; 
+}
+
+
+
+
 .house-hero-picture {
     background-image: url("../images/shutterstock_282624269_smal.jpg");
     height: 100vh;

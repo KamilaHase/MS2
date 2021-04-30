@@ -1,50 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Barrio&family=Bungee+Inline&family=Delius&family=Fascinate&family=Fascinate+Inline&family=Frijole&family=Major+Mono+Display&family=Monoton&family=Nova+Mono&family=Pompiere&family=Ribeye+Marrow&family=Saira+Condensed:wght@300;500&family=Sigmar+One&family=Special+Elite&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Roboto&display=swap');
+
 /*
-font-family: 'Barrio', cursive;
-font-family: 'Bungee Inline', cursive;
-font-family: 'Delius', cursive;
-font-family: 'Fascinate Inline', cursive;
-font-family: 'Major Mono Display', monospace;
-font-family: 'Nova Mono', monospace;
-font-family: 'Pompiere', cursive;
-font-family: 'Ribeye Marrow', cursive;
-font-family: 'Saira Condensed', sans-serif;
-font-family: 'Special Elite', cursive;
-font-family: 'Unica One', cursive; - favorit na logo
+font-family: 'Allerta Stencil', sans-serif;
+font-family: 'Roboto', sans-serif;
 */
 
 body {
-    background-color: #B4D3D8;
-    font-family: 'Delius', cursive;
-    
+    background-color: #04272c;
+    font-family: 'Roboto', sans-serif;
 }
 
-p {
-    
+h3 {
+    font-family: 'Allerta Stencil', sans-serif;
+    color:rgb(75, 25, 25);
+}
+
+/*------------NAVBAR---------------*/
+
+.navbar-bg-color {
+    background-color: rgb(75, 25, 25);
 }
 
 #logo {
-    font-family: 'Ribeye Marrow', cursive;
+    font-family: 'Allerta Stencil', sans-serif;
     font-size: 300%;
-    color: darkblue;
+    color: white;
 }
 
+
+/*------------INTRODUCTION TEXT---------------*/
 .introduction-card {
     margin-top: 60px;
     padding: 20px;
     background-color: #f0f4f5;
+    border-radius: 15px;
 }
 
 .introduction-text {
 }
 
 .introduction-button {
-   margin-top: 30px; 
+    
+}
+
+.img-chair {
+    height: 5%;
+    width: 5%;
+    align-items: right;
 }
 
 
 
 
+/*------------HERO PICTURE-HOUSE--------------*/
 .house-hero-picture {
     background-image: url("../images/shutterstock_282624269_smal.jpg");
     height: 100vh;

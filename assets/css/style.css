@@ -6,34 +6,42 @@ font-family: 'Roboto', sans-serif;
 */
 
 body {
-    background-color: #04272c;
+    background-color: #0e4f58;
     font-family: 'Roboto', sans-serif;
+    color: #386b53;
 }
 
 h3 {
     font-family: 'Allerta Stencil', sans-serif;
-    color:rgb(75, 25, 25);
+    color: #0aca95;
+    font-size: 30px;
+}
+
+p {
+    font-size: 17px;
 }
 
 /*------------NAVBAR---------------*/
 
 .navbar-bg-color {
-    background-color: rgb(75, 25, 25);
+    background-color: rgb(179, 9, 9);
 }
 
 #logo {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 300%;
     color: white;
+    margin-top: 5rem;
+    margin-left: 4rem;
 }
 
 
-/*------------INTRODUCTION TEXT---------------*/
+/*------------INTRODUCTION PAGE - INDEX.HTML---------------*/
 .introduction-card {
-    margin-top: 60px;
-    padding: 20px;
-    background-color: #f0f4f5;
-    border-radius: 15px;
+    margin-top: 5rem;
+    padding: 3.75rem;
+    background-color: #fcffff;
+    border-radius: 0.9rem;
 }
 
 .introduction-text {

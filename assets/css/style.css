@@ -19,6 +19,7 @@ h3 {
 
 p {
     font-size: 17px;
+    color:#0e4f58;
 }
 
 /*------------NAVBAR---------------*/
@@ -93,10 +94,24 @@ p {
 
 
 
-/*------------HERO PICTURE-HOUSE--------------*/
+/*------------GET READY--------------*/
 .house-hero-picture {
     background-image: url("../images/shutterstock_282624269_smal.jpg");
     height: 100vh;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vocab-cards-both {
+    margin-left: 50rem;
+    display: inline;
+}
+
+.cards {
+    background-color: rgb(1, 53, 59);
+    border-radius: 0.9rem;
+    color: rgb(235, 245, 247);
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 20px;
 }

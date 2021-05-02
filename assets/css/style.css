@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 body {
-    background-color: #0e4f58;
+    
     font-family: 'Roboto', sans-serif;
     
 }
@@ -23,6 +23,10 @@ p {
 }
 
 /*------------NAVBAR---------------*/
+
+.body-index-color {
+    background-color: #0e4f58;
+}
 
 .navbar-bg-color {
     background-color: rgb(179, 9, 9);
@@ -61,10 +65,8 @@ p {
 }
 
 .images-introduction-bottom {
-    display: inline-flexbox;
-    height: 50px;
-    
-
+    display: inline-box;
+    height: 5px; 
 }
 
 /*
@@ -100,7 +102,7 @@ p {
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;   
 }
 
 .vocab-cards-both {
@@ -109,9 +111,32 @@ p {
 }
 
 .cards {
-    background-color: rgb(1, 53, 59);
+    background-color: #343e59;
     border-radius: 0.9rem;
     color: rgb(235, 245, 247);
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
 }
+
+.btn-go-to-game {
+    background-color: #343e59;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #0aca95;
+    font-size: 15px;
+}
+
+.cards2 {
+    background-color: #343e59;
+    border-radius: 0.9rem;
+    color: rgb(235, 245, 247);
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: -0.5rem;
+    margin-left: 1rem;
+}
+

@@ -28,6 +28,7 @@ p {
     background-color: #0e4f58;
 }
 
+
 .navbar-bg-color {
     background-color: rgb(179, 9, 9);
 }
@@ -45,7 +46,7 @@ p {
 
 /*------------INTRODUCTION PAGE - INDEX.HTML---------------*/
 .introduction-card {
-    margin-top: 5rem;
+    margin-top: 7rem;
     padding: 3.75rem;
     background-color: #fcffff;
     border-radius: 0.9rem;
@@ -65,32 +66,38 @@ p {
 }
 
 .images-introduction-bottom {
-    display: inline-box;
-    height: 5px; 
-}
+    display: inline-block;
+    }
 
-/*
+
 .img-kettle {
-    height: 20%;
-    width: 20%;
-    margin-left: 580px;
-    margin-top: 20px;
-    margin-bottom: -40px;
-    display: block;
+    height: 30%;
+    margin-top: -50px;
+    display: inline-block;
     position: relative;
 }
 
 .img-globe {
-    height: 10%;
-    width: 10%;
-    margin-left: 80px;
-    margin-top: 20px;
-    margin-bottom: -32px;
-    display: block;
+    height: 30%;
+    margin-top: -50px;
+    display: inline-block;
     position: relative;
 }
 
-*/
+.img-apple {
+    height: 30%;
+    margin-top: -50px;
+    display: inline-block;
+    position: relative;
+}
+
+
+.img-lamp {
+    height: 5%;
+    margin-top: 0;
+    display: inline;
+}
+
 
 
 

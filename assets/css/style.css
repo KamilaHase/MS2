@@ -112,9 +112,9 @@ p {
     background-size: cover;   
 }
 
+
 .vocab-cards-both {
-    margin-left: 50rem;
-    display: inline;
+    margin-left: 20px;
 }
 
 .cards {
@@ -122,10 +122,10 @@ p {
     border-radius: 0.9rem;
     color: rgb(235, 245, 247);
     font-family: 'Allerta Stencil', sans-serif;
-    font-size: 20px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-left: 1rem;
+    font-size: 19px;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .btn-go-to-game {
@@ -140,7 +140,7 @@ p {
     border-radius: 0.9rem;
     color: rgb(235, 245, 247);
     font-family: 'Allerta Stencil', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: -0.5rem;

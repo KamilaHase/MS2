@@ -151,6 +151,15 @@ p {
     border-radius: 0.9rem;
 }
 
+/*-------------------------GAME---*/
+
+.btn-check-answers {
+    background-color: #842029;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: white;
+    font-size: 15px;
+    border-radius: 0.9rem;
+
 
 /*-------------------------Media queries---*/
 

@@ -13,7 +13,7 @@ body {
 
 h3 {
     font-family: 'Allerta Stencil', sans-serif;
-    color: #0aca95;
+    color: #04bc89;
     font-size: 30px;
 }
 
@@ -25,9 +25,8 @@ p {
 /*------------NAVBAR---------------*/
 
 .body-index-color {
-    background-color: #0e4f58;
+    background-color: #116661;
 }
-
 
 .navbar-bg-color {
     background-color: rgb(179, 9, 9);
@@ -37,7 +36,7 @@ p {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 300%;
     color: white;
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-left: 3rem;
     float: left;
     
@@ -46,9 +45,9 @@ p {
 
 /*------------INTRODUCTION PAGE - INDEX.HTML---------------*/
 .introduction-card {
-    margin-top: 7rem;
-    padding: 3.75rem;
-    background-color: #fcffff;
+    margin-top: 4rem;
+    padding: 1.75rem;
+    background-color: white;
     border-radius: 0.9rem;
 }
 
@@ -93,9 +92,9 @@ p {
 
 
 .img-lamp {
-    height: 5%;
-    margin-top: 0;
-    display: inline;
+    height: 200px;
+    margin-top: -10px;
+    position: relative;
 }
 
 
@@ -104,9 +103,13 @@ p {
 
 
 /*------------GET READY--------------*/
+.get-ready-body-color {
+    background-color: whitesmoke;
+}
+
 .house-hero-picture {
     background-image: url("../images/main-house-horizontal.jpg");
-    height: 100vh;
+    height: 97vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;   
@@ -118,21 +121,33 @@ p {
 }
 
 .cards {
-    background-color: #343e59;
+    background-color: white;
     border-radius: 0.9rem;
-    color: rgb(235, 245, 247);
+    color: #00aa7f;
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 19px;
+    font-weight: bold;
     padding: 0;
     margin-left: 10px;
     margin-top: 10px;
+
+}
+
+.timer {
+    background-color: #116661c4;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: white;
+    font-size: 15px;
+    border-radius: 0.9rem;
+    margin-top: 5px;
 }
 
 .btn-go-to-game {
-    background-color: #343e59;
+    background-color: #116661c4;
     font-family: 'Allerta Stencil', sans-serif;
-    color: #0aca95;
+    color: white;
     font-size: 15px;
+    border-radius: 0.9rem;
 }
 
 .cards2 {

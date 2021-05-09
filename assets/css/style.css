@@ -159,18 +159,21 @@ p {
     color: white;
     font-size: 15px;
     border-radius: 0.9rem;
-
+}
 
 /*-------------------------Media queries---*/
 
 @media(max-width: 992px) {
-.house-hero-picture {
-    max-height: 400px;
+    .house-hero-picture {
+         max-height: 400px;
+
+}
+
+.vocab-cards-both {
+    margin-left: 1px;
 }
 
 .cards {
-    margin-left: 0px;
+    margin-left: 0;
 }
-
-
-
+}

@@ -14,11 +14,11 @@ body {
 h3 {
     font-family: 'Allerta Stencil', sans-serif;
     color: #04bc89;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 p {
-    font-size: 17px;
+    font-size: 1em;
     color:#0e4f58;
 }
 
@@ -34,7 +34,7 @@ p {
 
 #logo {
     font-family: 'Allerta Stencil', sans-serif;
-    font-size: 300%;
+    font-size: 50px;
     color: white;
     margin-top: 4rem;
     margin-left: 3rem;
@@ -177,3 +177,37 @@ p {
     margin-left: 0;
 }
 }
+
+/*
+@media (max-width: 1295px) {
+    .cards {
+        font-size: 0.5vh;
+    }
+}*/
+
+@media only screen and (max-width: 880px) {
+#logo {
+    font-size: 35px;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    }
+
+.introduction-card {
+    margin-top: 2vw;
+    padding: 0.75vw;
+    }
+
+    .img-lamp {
+        height: 10vw;
+    }
+
+    
+  }
+
+
+
+  @media(max-width: 700px) {
+    .img-lamp {
+        height: 20vw;
+    }
+  }

@@ -14,7 +14,7 @@ body {
 h3 {
     font-family: 'Allerta Stencil', sans-serif;
     color: #04bc89;
-    font-size: 2vw;
+    
 }
 
 p {
@@ -45,7 +45,7 @@ p {
 
 /*------------INTRODUCTION PAGE - INDEX.HTML---------------*/
 .introduction-card {
-    margin-top: 4rem;
+    margin-top: 4.5rem;
     padding: 1.75rem;
     background-color: white;
     border-radius: 0.9rem;
@@ -70,22 +70,22 @@ p {
 
 
 .img-kettle {
-    height: 30%;
-    margin-top: -50px;
+    height: 8vh;
+    margin-top: -35px;
     display: inline-block;
     position: relative;
 }
 
 .img-globe {
-    height: 30%;
-    margin-top: -50px;
+    height: 8vh;
+    margin-top: -35px;
     display: inline-block;
     position: relative;
 }
 
 .img-apple {
-    height: 30%;
-    margin-top: -50px;
+    height: 8vh;
+    margin-top: -35px;
     display: inline-block;
     position: relative;
 }
@@ -133,13 +133,23 @@ p {
 
 }
 
-.timer {
+.timer-lg {
     background-color: #116661c4;
     font-family: 'Allerta Stencil', sans-serif;
     color: white;
     font-size: 15px;
     border-radius: 0.9rem;
     margin-top: 5px;
+    padding: 0;
+}
+
+.timer-sm {
+    background-color: #116661c4;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: white;
+    font-size: 15px;
+    border-radius: 0.9rem;
+    margin-top: 2px;
     padding: 0;
 }
 
@@ -160,6 +170,17 @@ p {
     font-size: 15px;
     border-radius: 0.9rem;
 }
+
+.instructions-game {
+        background-color: #116661c4;
+        font-family: 'Allerta Stencil', sans-serif;
+        color: white;
+        font-size: 15px;
+        border-radius: 0.9rem;
+        margin-top: 5px;
+        padding: 0;
+    }
+
 
 /*-------------------------Media queries---*/
 
@@ -204,10 +225,21 @@ p {
     
   }
 
+  @media(min-width: 700px) {
+    .timer-sm {
+        display: none;
+    }
+  }
 
 
   @media(max-width: 700px) {
     .img-lamp {
         height: 20vw;
     }
+
+    .timer-lg {
+        display: none;
+    }
   }
+
+  

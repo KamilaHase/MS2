@@ -34,7 +34,7 @@ p {
 #logo {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 50px;
-    color: white;
+    color: #FFFFFF;
     margin-top: 4rem;
     margin-left: 3rem;
     float: left;
@@ -46,7 +46,7 @@ p {
 .introduction-card {
     margin-top: 4.5rem;
     padding: 1.75rem;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 0.9rem;
 }
 
@@ -110,7 +110,7 @@ p {
 
 /*------------GET READY--------------*/
 .get-ready-body-color {
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
 }
 
 .house-hero-picture {
@@ -127,7 +127,7 @@ p {
 }
 
 .cards {
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 0.9rem;
     color: #00aa7f;
     font-family: 'Allerta Stencil', sans-serif;
@@ -142,7 +142,7 @@ p {
 .timer-lg {
     background-color: #116661c4;
     font-family: 'Allerta Stencil', sans-serif;
-    color: white;
+    color: #FFFFFF;
     font-size: 15px;
     border-radius: 0.9rem;
     margin-top: 5px;
@@ -152,7 +152,7 @@ p {
 .timer-sm {
     background-color: #116661c4;
     font-family: 'Allerta Stencil', sans-serif;
-    color: white;
+    color: #FFFFFF;
     font-size: 15px;
     border-radius: 0.9rem;
     margin-top: 2px;
@@ -162,7 +162,7 @@ p {
 .btn-go-to-game {
     background-color: #116661c4;
     font-family: 'Allerta Stencil', sans-serif;
-    color: white;
+    color: #FFFFFF;
     font-size: 15px;
     border-radius: 0.9rem;
 }
@@ -172,7 +172,7 @@ p {
 .btn-check-answers {
     background-color: #842029;
     font-family: 'Allerta Stencil', sans-serif;
-    color: white;
+    color: #FFFFFF;
     font-size: 15px;
     border-radius: 0.9rem;
 }
@@ -180,7 +180,7 @@ p {
 .instructions-game {
         background-color: #116661c4;
         font-family: 'Allerta Stencil', sans-serif;
-        color: white;
+        color: #FFFFFF;
         font-size: 15px;
         border-radius: 0.9rem;
         margin-top: 5px;

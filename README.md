@@ -1,6 +1,6 @@
 
 # VOCAB - MEMORIZE
-
+A game to test visual memory and at the same time viewers ability to learn new vocabulary words.
 
  
 ## UX

@@ -18,7 +18,28 @@ h3 {
 }
 
 p {
-    color:#0e4f58;
+    color:#00aa7f;
+    margin-bottom: 0;
+}
+
+.footer-index {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #FFFFFF;
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.footer-logo {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #116661;
+    font-size: 0.5rem;
+}
+
+.footer-icon {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #FFFFFF;
+    font-size: 0.6rem;
+    margin-bottom: 1rem;  
 }
 
 /*------------NAVBAR---------------*/
@@ -53,10 +74,11 @@ p {
 .introduction-text {
     margin-top: 15px;
     margin-bottom: 30px;
+    color:#0e4f58;
 }
 
 .introduction-language {
-    
+    color:#0e4f58;
 }
 
 .introduction-button {
@@ -139,11 +161,20 @@ p {
 
 }
 
-.timer-lg {
-    background-color: #116661c4;
-    font-family: 'Allerta Stencil', sans-serif;
+#timer-font-lg {
     color: #FFFFFF;
     font-size: 15px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+#timer-font-sm {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.timer-lg {
+    background-color: #116661c4; 
     border-radius: 0.9rem;
     margin-top: 5px;
     padding: 0;

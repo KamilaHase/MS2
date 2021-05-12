@@ -39,6 +39,8 @@ p {
     color: #FFFFFF;
     font-size: 0.6rem;
     margin-bottom: 1rem;  
+    background-repeat: no-repeat;
+
 }
 
 /*------------NAVBAR---------------*/

@@ -29,18 +29,23 @@ p {
     margin-bottom: 1rem;
 }
 
-.footer-logo {
+.footer-game {
     font-family: 'Allerta Stencil', sans-serif;
     color: #116661;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
 }
 
 .footer-icon {
     color: #FFFFFF;
     font-size: 0.6rem;
     margin-bottom: 1rem;  
-    background-repeat: no-repeat;
+}
 
+.footer-g-icon {
+    color: #116661;
+    font-size: 0.6rem;
+    margin-bottom: 1rem;  
 }
 
 /*------------NAVBAR---------------*/
@@ -228,6 +233,10 @@ p {
 
 }
 
+.footer-hidden-sm {
+    display: none;
+}
+
 .vocab-cards-both {
     margin-left: 1px;
 }
@@ -236,13 +245,6 @@ p {
     margin-left: 0;
 }
 }
-
-/*
-@media (max-width: 1295px) {
-    .cards {
-        font-size: 0.5vh;
-    }
-}*/
 
 @media only screen and (max-width: 880px) {
 #logo {
@@ -259,24 +261,26 @@ p {
     .img-lamp {
         height: 10vw;
     }
-
-    
   }
 
-  @media(min-width: 700px) {
+  @media(min-width: 768px) {
     .timer-sm {
         display: none;
     }
   }
 
+  @media(max-width: 768px) {
+    .timer-lg {
+        display: none;
+    }
+  }
+
+
+
 
   @media(max-width: 700px) {
     .img-lamp {
         height: 20vw;
-    }
-
-    .timer-lg {
-        display: none;
     }
 
     .images-introduction-bottom {
@@ -287,11 +291,17 @@ p {
         padding-top: 1rem;
      }
 
+     .game-section {
+         max-height: 400px;
+     }
+
+     
      
 .introduction-card {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 
   }
 

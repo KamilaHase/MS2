@@ -25,11 +25,3 @@ function endTime(){
     timeCountdown.innerHTML = `TIME OUT`;
 }
 
-/*
-function redirectToGame(){
-    var timeOutId = setTimeout(function () {
-        window.location.href = "game.html";
-    }, 30*1000);
-} 
-
-*/

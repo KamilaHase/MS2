@@ -208,6 +208,13 @@ p {
 }
 
 /*-------------------------GAME---*/
+.house-hero-picture-game {
+    background-image: url("../images/main-house-horizontal-erased.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .btn-check-answers {
     background-color: #842029;
@@ -233,7 +240,10 @@ p {
 @media(max-width: 992px) {
     .house-hero-picture {
          max-height: 400px;
+}
 
+.house-hero-picture-game {
+    max-height: 400px;
 }
 
 .footer-hidden-sm {
@@ -309,8 +319,7 @@ p {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
-  }
+}
 
   @media(max-width: 340px) {
     .img-lamp {

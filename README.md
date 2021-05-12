@@ -34,6 +34,7 @@ A game to test visual memory and at the same time viewers ability to learn new v
 - **Navigation** 
    
 ### Features Left to Implement
+- colours might need to be changed in the future, they were adapted to match with the hero image
 
 ## Technologies Used
 (adapted accordingly by: https://github.com/Code-Institute-Solutions/SampleREADME)
@@ -45,6 +46,10 @@ A game to test visual memory and at the same time viewers ability to learn new v
 
 
 ## Testing
+
+Bugs and difficulties: 
+- logo and its responsiveness
+
 #### Website has been tested and corrected by: 
 
 

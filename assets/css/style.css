@@ -18,7 +18,7 @@ h3 {
 }
 
 p {
-    color:#00aa7f;
+    color: #ea515b;
     margin-bottom: 0;
 }
 
@@ -31,7 +31,7 @@ p {
 
 .footer-game {
     font-family: 'Allerta Stencil', sans-serif;
-    color: #116661;
+    color: #04bc89;
     font-size: 0.6rem;
     margin-bottom: 1rem;
 }
@@ -43,9 +43,13 @@ p {
 }
 
 .footer-g-icon {
-    color: #116661;
+    color: #04bc89;
     font-size: 0.6rem;
     margin-bottom: 1rem;  
+}
+
+.white-text {
+    color: #FFFFFF;
 }
 
 /*------------NAVBAR---------------*/
@@ -157,7 +161,6 @@ p {
 .cards {
     background-color: #FFFFFF;
     border-radius: 0.9rem;
-    color: #00aa7f;
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 19px;
     font-weight: bold;
@@ -180,14 +183,14 @@ p {
 }
 
 .timer-lg {
-    background-color: #116661c4; 
+    background-color: #0a4b69;; 
     border-radius: 0.9rem;
     margin-top: 5px;
     padding: 0;
 }
 
 .timer-sm {
-    background-color: #116661c4;
+    background-color: #0a4b69;;
     font-family: 'Allerta Stencil', sans-serif;
     color: #FFFFFF;
     font-size: 15px;
@@ -197,7 +200,7 @@ p {
 }
 
 .btn-go-to-game {
-    background-color: #116661c4;
+    background-color: #0a4b69;;
     font-family: 'Allerta Stencil', sans-serif;
     color: #FFFFFF;
     font-size: 15px;
@@ -215,7 +218,7 @@ p {
 }
 
 .instructions-game {
-        background-color: #116661c4;
+        background-color: #0a4b69;
         font-family: 'Allerta Stencil', sans-serif;
         color: #FFFFFF;
         font-size: 15px;
@@ -263,6 +266,7 @@ p {
     }
   }
 
+  
   @media(min-width: 768px) {
     .timer-sm {
         display: none;
@@ -276,9 +280,13 @@ p {
   }
 
 
-
-
   @media(max-width: 700px) {
+
+    body {
+        height: 100vh;
+    }
+
+    
     .img-lamp {
         height: 20vw;
     }
@@ -301,7 +309,6 @@ p {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
 
   }
 

@@ -1,6 +1,6 @@
 
 /*-------------------------TIMER AND GO TO GAME PAGE-----------------------------------*/
-// adapted from https://www.youtube.com/watch?v=_a4XCarxwr8&t=333s "How to Create a Countdown Timer with JavaScript"
+/* adapted from https://www.youtube.com/watch?v=_a4XCarxwr8&t=333s "How to Create a Countdown Timer with JavaScript" */
 
 const timeCountdown = document.getElementById("timer-font-lg");
 let timeSecond = 30;
@@ -31,6 +31,7 @@ function endTime(){
 
 /*---------------DRAGGABLE-------*/
 
+/*
 $(document).click(function() {
 
   $("#postylka").draggable();

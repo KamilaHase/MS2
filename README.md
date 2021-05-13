@@ -73,6 +73,8 @@ Bugs and difficulties:
 
 
 ## Credits
+- https://www.youtube.com/watch?v=_a4XCarxwr8&t=333s
+- https://www.encodedna.com/javascript/redirect-page-after-a-delay-using-javascript.htm
 
 ### Acknowledgements
 

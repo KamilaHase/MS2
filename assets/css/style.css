@@ -214,6 +214,67 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+#empty-postylka {
+    position: absolute;
+    top: 293px;
+    left: 410px;
+    height: 200px;
+    width: 260px;
+    background:rgb(179, 9, 9);
+    z-index: 4;
+}
+
+#empty-okno {
+    position: absolute;
+    top: 110px;
+    left: 430px;
+    height: 150px;
+    width: 230px;
+    background:rgb(179, 9, 9);
+    z-index: 4;
+}
+
+#empty-kocka {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    height: 100px;
+    width: 200px;
+    background:rgb(179, 9, 9);
+    z-index: 4;
+}
+
+#empty-zachod {
+    position: absolute;
+    top: 293px;
+    left: 245px;
+    height: 200px;
+    width: 160px;
+    background:rgb(179, 9, 9);
+    z-index: 4;
+}
+
+#empty-vaza {
+    position: absolute;
+    top: 550px;
+    left: 125px;
+    height: 80px;
+    width: 180px;
+    background:rgb(179, 9, 9);
+    z-index: 4;
+}
+
+#empty-lednice {
+    position: absolute;
+    top: 510px;
+    left: 500px;
+    height: 200px;
+    width: 160px;
+    background:rgb(179, 9, 9);
+    z-index: 4;
 }
 
 .btn-check-answers {
@@ -250,7 +311,7 @@ p {
     display: none;
 }
 
-.vocab-cards-both {
+.vocab-cards {
     margin-left: 1px;
 }
 

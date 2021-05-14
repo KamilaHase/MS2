@@ -49,6 +49,7 @@ A game to test visual memory and at the same time viewers ability to learn new v
 
 Bugs and difficulties: 
 - logo and its responsiveness
+- jquery links and cdns
 
 #### Website has been tested and corrected by: 
 

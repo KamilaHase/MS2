@@ -224,7 +224,6 @@ p {
     height: 27%;
     width: 33%;
     background:rgb(179, 9, 9);
-    z-index: 4;
 }
 
 #empty-okno {
@@ -234,7 +233,6 @@ p {
     height: 20%;
     width: 23%;
     background:rgb(179, 9, 9);
-    z-index: 4;
 }
 
 #empty-kocka {
@@ -244,7 +242,6 @@ p {
     height: 16%;
     width: 35%;
     background:rgb(179, 9, 9);
-    z-index: 4;
 }
 
 #empty-zachod {
@@ -254,7 +251,6 @@ p {
     height: 28%;
     width: 18%;
     background:rgb(179, 9, 9);
-    z-index: 4;
 }
 
 #empty-vaza {
@@ -264,7 +260,7 @@ p {
     height: 15%;
     width: 42%;
     background:rgb(179, 9, 9);
-    z-index: 4;
+    
 }
 
 #empty-lednice {
@@ -274,7 +270,6 @@ p {
     height: 26%;
     width: 38%;
     background:rgb(179, 9, 9);
-    z-index: 4;
 }
 
 .draggable-cards {

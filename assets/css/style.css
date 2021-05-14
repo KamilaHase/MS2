@@ -311,11 +311,11 @@ p {
 
 @media(max-width: 992px) {
     .house-hero-picture {
-         max-height: 40vh;
+         max-height: 30vh;
 }
 
 .house-hero-picture-game {
-    max-height: 400px;
+    max-height: 30vh;
 }
 
 .footer-hidden-sm {

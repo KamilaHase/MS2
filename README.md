@@ -51,6 +51,7 @@ Bugs and difficulties:
 - logo and its responsiveness
 - jquery links and cdns
 
+
 #### Website has been tested and corrected by: 
 
 
@@ -76,6 +77,7 @@ Bugs and difficulties:
 ## Credits
 - https://www.youtube.com/watch?v=_a4XCarxwr8&t=333s
 - https://www.encodedna.com/javascript/redirect-page-after-a-delay-using-javascript.htm
+- https://stackoverflow.com/questions/5489989/jquery-equivalent-for-window-document-write
 
 ### Acknowledgements
 

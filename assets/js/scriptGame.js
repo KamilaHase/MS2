@@ -9,10 +9,8 @@
     var currentIndex = array.length, temporaryValue, randomIndex;
   
     while (0 !== currentIndex) {
-  
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
-  
       temporaryValue = array[currentIndex];
       array[currentIndex] = array[randomIndex];
       array[randomIndex] = temporaryValue;
@@ -24,41 +22,12 @@
  var arr = $( '.draggable-cards' );
  shuffle(arr);
  $('#draggable-cards').append(arr);
+ // console.log(arr.slice(4));
+ $(arr).slice(2).hide();
+ 
+
 
  
- 
-
-
-  
-
-  
-  
-
-
-/*
-$( function hide() {
-  $( '.draggable-cards' ).hide();
-} );
-*/
-
-/*
-var arr = $( '.draggable-cards' );
-
-function shuffle(arr) {
-    for (var i = 0; i < arr.length - 1; i++) {
-        var j = i + Math.floor(Math.random() * (arr.length - i));
-
-        var temp = arr[j];
-        arr[j] = arr[i];
-        arr[i] = temp;
-    }
-    return arr;
-};
-
- */
-
-
-
 
 /*
 //adapted accordingly from https://stackoverflow.com/questions/30984794/display-random-div

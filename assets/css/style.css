@@ -285,12 +285,14 @@ p {
         opacity: 0.5;
 }
 
-.hold {
-    background: #000000;
-    opacity: 0.5;
-    color: #04bc89; 
+.answer-input {
+    border-radius: 0.9rem;
+    text-align: center;
+    color: #04bc89;
+    border-style: none;
+    width: 100%;
+    position: relative;
 }
-
 
 .btn-check-answers {
     background-color: #f5edee;
@@ -373,6 +375,9 @@ p {
     position: relative;
 }
 
+.instructions-lg {
+    display: none;
+}
 
 #empty-postylka {
     display: none;
@@ -479,6 +484,12 @@ p {
     .img-lamp {
         display: none;
     }
+  }
+
+  @media(min-width: 992px) {
+  .instructions-sm {
+    display: none;
+}
   }
 
   @media(min-width: 2000px) {

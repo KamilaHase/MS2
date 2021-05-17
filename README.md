@@ -78,6 +78,7 @@ Bugs and difficulties:
 - https://www.youtube.com/watch?v=_a4XCarxwr8&t=333s
 - https://www.encodedna.com/javascript/redirect-page-after-a-delay-using-javascript.htm
 - https://stackoverflow.com/questions/5489989/jquery-equivalent-for-window-document-write
+- https://www.rapidtables.com/convert/color/hex-to-rgb.html
 
 ### Acknowledgements
 

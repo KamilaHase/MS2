@@ -22,6 +22,10 @@ p {
     margin-bottom: 0;
 }
 
+.p-white {
+    color: #fff;
+}
+
 .footer-index {
     font-family: 'Allerta Stencil', sans-serif;
     color: #FFFFFF;
@@ -361,8 +365,40 @@ p {
 }
 
 .house-hero-picture-game {
-    max-height: 30vh;
+    background-image: url("../images/main-house-horizontal-phoneView.png");
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+
+#empty-postylka {
+    display: none;
+}
+
+#empty-okno {
+    display: none;
+}
+
+#empty-kocka {
+    display: none;
+}
+
+#empty-zachod {
+    display: none;
+}
+
+#empty-vaza {
+    display: none;
+    
+}
+
+#empty-lednice {
+    display: none;
+}
+
 
 .footer-hidden-sm {
     display: none;

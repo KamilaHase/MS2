@@ -289,11 +289,57 @@ p {
 
 
 .btn-check-answers {
-    background-color: #842029;
+    background-color: #f5edee;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #f80707;
+    font-size: 15px;
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+}
+
+.btn-check-answers:hover {
+    background-color: #f80707;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #f5edee;
+    font-size: 15px;
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+}
+
+.btn-reload-page {
+    background-color: #f5edee;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #fda23e;
+    font-size: 15px;
+}
+
+.btn-reload-page:hover {
+    background-color: #fda23e;
     font-family: 'Allerta Stencil', sans-serif;
     color: #FFFFFF;
     font-size: 15px;
-    border-radius: 0.9rem;
+}
+
+.btn-try-again {
+    background-color: #f5edee;;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #0a4b69;
+    font-size: 15px;
+    border-bottom-left-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+}
+
+.btn-try-again:hover {
+    background-color: #0a4b69;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-bottom-left-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+}
+
+.btns-action {
+    margin-top: 10vh;
 }
 
 .instructions-game {

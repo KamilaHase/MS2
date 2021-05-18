@@ -300,6 +300,14 @@ p {
     position: relative;
 }
 
+.answer-correct {
+    background: #198754;
+}
+
+.answer-incorrect {
+    background: #f10303; 
+}
+
 .btn-check-answers {
     background-color: #f5edee;
     font-family: 'Allerta Stencil', sans-serif;

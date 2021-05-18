@@ -1,3 +1,4 @@
+/*--------------------------SHUFFLE THE CARDS AND PICK TWO RANDOM ONES-------------------------------------------------*/
 //adapted from https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array?noredirect=1&lq=1
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
@@ -35,7 +36,63 @@ $( function() {
     location.reload(true);
 });
 
+/*---------------------------------QUIZ-------------------*/
+function check() {
+  let postylka = $("#input-postylka").val();
+  let okno = $("#input-okno").val();
+  let kocka = $("#input-kocka").val();
+  let zachod = $("#input-zachod").val();
+  let vaza = $("#input-vaza").val();
+  let lednice = $("#input-lednice").val();
+  let correct = 0;
 
+  if (postylka == "4") {
+    correct++;
+    $("#input-postylka").css("background-color", "green"); //correct answer
+  } else {
+    $("#input-postylka").css("background-color", "red"); //incorrect answer
+  };
+  
+  if (okno == "2") {
+    correct++;
+    $("#input-okno").css("background-color", "green"); //correct answer
+  } else {
+    $("#input-okno").css("background-color", "red"); //incorrect answer
+  };
+
+  if (kocka == "1") {
+    correct++;
+    $("#input-kocka").css("background-color", "green"); //correct answer
+  } else {
+    $("#input-kocka").css("background-color", "red"); //incorrect answer
+  };
+
+  if (zachod == "3") {
+    correct++;
+    $("#input-zachod").css("background-color", "green"); //correct answer
+  } else {
+    $("#input-zachod").css("background-color", "red"); //incorrect answer
+  };
+
+  if (vaza == "5") {
+    correct++;
+    $("#input-vaza").css("background-color", "#198754"); //correct answer
+  } else {
+    $("#input-vaza").css("background-color", "#ca3434"); //incorrect answer
+  };
+
+  if (lednice == "6") {
+    correct++;
+    $("#input-lednice").css("background-color", "#198754"); //correct answer
+  } else {
+    $("#input-lednice").css("background-color", "#ca3434"); //incorrect answer
+  };
+
+};
+
+
+
+/*
 let postylka;
 let okno;
 let kocka;
@@ -43,67 +100,57 @@ let zachod;
 let vaza;
 let lednice;
 
-function submit() {
-  ansPostylka = input-postylka.value;
-  ansOkno = input-okno.value;
-  ansKocka = input-kocka.value;
-  ansZachod = input-zachod.value;
-  ansVaza = input-vaza.value;
-  ansLednice = input-lednice.value;
+function check() {
+  ansPostylka = $("#input-postylka").val();
+  ansOkno = $("#input-okno").val();
+  ansKocka = $("input-kocka").val();
+  ansZachod = $("input-zachod").val();
+  ansVaza = $("input-vaza").val();
+  ansLednice = $("input-Lednice").val();
 
-  if (ansPostylka == "4") {
-    g = 1;
-    input-postylka.value = postylka;
-    // change class to correct
+  if (ansPostylka === "4") {
+    postylka = 1;
+    $("#input-postylka").css("background-color", "green"); //correct answer
   } else {
-    input-postylka.value = postylka;
-    // change class to incorrect
-  }
+    $("#input-postylka").css("background-color", "red"); //incorrect answer
+  };
 
-  if (ansOkno == "2") {
-    h = 1;
-    input-okno.value = okno;
-    // change class to correct
+  if (ansOkno === "2") {
+    okno = 1;
+    $("#input-okno").css("background-color", "green"); //correct answer
   } else {
-    input-okno.value = okno;
-    // change class to incorrect
-  }
+    $("#input-okno").css("background-color", "red"); //incorrect answer
+  };
 
-  if (ansKocka == "1") {
-    i = 1;
-    input-kocka.value = kocka;
-    // change class to correct
+  if (ansKocka === "1") {
+    kocka = 1;
+    $("#input-kocka").css("background-color", "green"); //correct answer
   } else {
-    input-kocka.value = kocka;
-    // change class to incorrect
-  }
+    $("#input-kocka").css("background-color", "red"); //incorrect answer
+  };
 
-  if (ansZachod == "3") {
-    j = 1;
-    input-zachod.value = zachod;
-    // change class to correct
+  if (ansZachod === "3") {
+    zachod = 1;
+    $("#input-zachod").css("background-color", "green"); //correct answer
   } else {
-    input-zachod.value = zachod;
-    // change class to incorrect
-  }
+    $("#input-zachod").css("background-color", "red"); //incorrect answer
+  };
 
-  if (ansVaza == "2") {
-    k = 1;
-    input-vaza.value = vaza;
-    // change class to correct
+  if (ansVaza === "5") {
+    vaza = 1;
+    $("#input-vaza").css("background-color", "green"); //correct answer
   } else {
-    input-vaza.value = vaza;
-    // change class to incorrect
-  }
+    $("#input-vaza").css("background-color", "red"); //incorrect answer
+  };
 
-  if (ansLednice == "2") {
-    l = 1;
-    input-lednice.value = lednice;
-    // change class to correct
+  if (ansLednice === "6") {
+    lednice = 1;
+    $("#input-lednice").css("background-color", "green"); //correct answer
   } else {
-    input-lednice.value = lednice;
-    // change class to incorrect
-  }
+    $("#input-lednice").css("background-color", "red"); //incorrect answer
+  };
 
-}
+};
+
+*/
 

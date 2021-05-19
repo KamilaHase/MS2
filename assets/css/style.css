@@ -300,14 +300,6 @@ p {
     position: relative;
 }
 
-.answer-correct {
-    background: #198754;
-}
-
-.answer-incorrect {
-    background: #ca3434; 
-}
-
 .btn-check-answers {
     background-color: #f5edee;
     font-family: 'Allerta Stencil', sans-serif;
@@ -366,6 +358,16 @@ p {
 
 .btns-action {
     margin-top: 8vh;
+}
+
+.after-submit {
+    visibility: hidden;
+    color: #04bc89;
+    background: #fff;
+    font-family: 'Allerta Stencil', sans-serif;
+    border-radius: 0.9rem;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .instructions-game {

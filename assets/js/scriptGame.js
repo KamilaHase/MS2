@@ -37,6 +37,8 @@ $( function() {
 });
 
 /*---------------------------------QUIZ-------------------*/
+// adapted from https://www.youtube.com/watch?v=1SxMWhqYQ4k&t=1588s and https://www.youtube.com/watch?v=C7NsIRhoWuE 
+
 function check() {
   let postylka = $("#input-postylka").val();
   let okno = $("#input-okno").val();
@@ -48,109 +50,50 @@ function check() {
 
   if (postylka == "4") {
     correct++;
-    $("#input-postylka").css("background-color", "green"); //correct answer
+    $("#input-postylka").css("background-color", "#d1f8b4"); //correct answer
   } else {
-    $("#input-postylka").css("background-color", "red"); //incorrect answer
+    $("#input-postylka").css("background-color", "#ffded6"); //incorrect answer
   };
   
   if (okno == "2") {
     correct++;
-    $("#input-okno").css("background-color", "green"); //correct answer
+    $("#input-okno").css("background-color", "#d1f8b4"); //correct answer
   } else {
-    $("#input-okno").css("background-color", "red"); //incorrect answer
+    $("#input-okno").css("background-color", "#ffded6"); //incorrect answer
   };
 
   if (kocka == "1") {
     correct++;
-    $("#input-kocka").css("background-color", "green"); //correct answer
+    $("#input-kocka").css("background-color", "#d1f8b4"); //correct answer
   } else {
-    $("#input-kocka").css("background-color", "red"); //incorrect answer
+    $("#input-kocka").css("background-color", "#ffded6"); //incorrect answer
   };
 
   if (zachod == "3") {
     correct++;
-    $("#input-zachod").css("background-color", "green"); //correct answer
+    $("#input-zachod").css("background-color", "#d1f8b4"); //correct answer
   } else {
-    $("#input-zachod").css("background-color", "red"); //incorrect answer
+    $("#input-zachod").css("background-color", "#ffded6"); //incorrect answer
   };
 
   if (vaza == "5") {
     correct++;
-    $("#input-vaza").css("background-color", "#198754"); //correct answer
+    $("#input-vaza").css("background-color", "#d1f8b4"); //correct answer
   } else {
-    $("#input-vaza").css("background-color", "#ca3434"); //incorrect answer
+    $("#input-vaza").css("background-color", "#ffded6"); //incorrect answer
   };
 
   if (lednice == "6") {
     correct++;
-    $("#input-lednice").css("background-color", "#198754"); //correct answer
+    $("#input-lednice").css("background-color", "#d1f8b4"); //correct answer
   } else {
-    $("#input-lednice").css("background-color", "#ca3434"); //incorrect answer
+    $("#input-lednice").css("background-color", "#ffded6"); //incorrect answer
   };
+
+  $("#results-correct").css("visibility","visible").addClass("after-submit");
+  $("#results-correct").html("You got " + correct + " correct.");
 
 };
 
 
-
-/*
-let postylka;
-let okno;
-let kocka;
-let zachod;
-let vaza;
-let lednice;
-
-function check() {
-  ansPostylka = $("#input-postylka").val();
-  ansOkno = $("#input-okno").val();
-  ansKocka = $("input-kocka").val();
-  ansZachod = $("input-zachod").val();
-  ansVaza = $("input-vaza").val();
-  ansLednice = $("input-Lednice").val();
-
-  if (ansPostylka === "4") {
-    postylka = 1;
-    $("#input-postylka").css("background-color", "green"); //correct answer
-  } else {
-    $("#input-postylka").css("background-color", "red"); //incorrect answer
-  };
-
-  if (ansOkno === "2") {
-    okno = 1;
-    $("#input-okno").css("background-color", "green"); //correct answer
-  } else {
-    $("#input-okno").css("background-color", "red"); //incorrect answer
-  };
-
-  if (ansKocka === "1") {
-    kocka = 1;
-    $("#input-kocka").css("background-color", "green"); //correct answer
-  } else {
-    $("#input-kocka").css("background-color", "red"); //incorrect answer
-  };
-
-  if (ansZachod === "3") {
-    zachod = 1;
-    $("#input-zachod").css("background-color", "green"); //correct answer
-  } else {
-    $("#input-zachod").css("background-color", "red"); //incorrect answer
-  };
-
-  if (ansVaza === "5") {
-    vaza = 1;
-    $("#input-vaza").css("background-color", "green"); //correct answer
-  } else {
-    $("#input-vaza").css("background-color", "red"); //incorrect answer
-  };
-
-  if (ansLednice === "6") {
-    lednice = 1;
-    $("#input-lednice").css("background-color", "green"); //correct answer
-  } else {
-    $("#input-lednice").css("background-color", "red"); //incorrect answer
-  };
-
-};
-
-*/
 

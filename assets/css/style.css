@@ -532,6 +532,31 @@ p {
 .btn-check-answers-sm {
     display: none;
 }
+
+
+#input-postylka {
+    display: none;
+}
+
+#input-okno {
+    display: none;
+}
+
+#input-kocka {
+    display: none;
+}
+
+#input-vaza {
+    display: none;
+}
+
+#input-zachod {
+    display: none;
+}
+
+#input-lednice {
+    display: none;
+}
   }
 
   @media(min-width: 2000px) {

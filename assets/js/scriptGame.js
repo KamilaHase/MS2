@@ -93,19 +93,9 @@ $("#results-correct").html("You got " + correct + " correct.");
 // ----VERSION FOR LARGE SCREENS - DRAG AND DROP
 
 // jquery
-/*
-$( function() {
-$( "#postylka" ).draggable();
-$( "#okno" ).draggable();
-$( "#kocka" ).draggable();
-$( "#zachod" ).draggable();
-$( "#vaza" ).draggable();
-$( "#lednice" ).draggable();
-} );
-*/
 
-$( function() {
-  let correct = 0;
+$( function checkLg() {
+let correct = 0;
 
 $( "#postylka, #okno, #kocka, #zachod, #vaza, #lednice" ).draggable();
 
@@ -114,14 +104,23 @@ $( "#drop-postylka" ).droppable({
   
   drop: function( event, ui ) {
     $( this )
-        console.log( "Dropped postylka!" );
+        console.log( "Dropped postylka!" );   
         correct++;
   }
+
+  /*
+    if (accept: "#postylka") {
+    correct++;
+    $("#lednice").css("background-color", "#d1f8b4") //correct answer
+  } else {
+    $("#lednice").css("background-color", "#ffded6"); //incorrect answer
+  } */
+
 });
 
 $( "#drop-okno" ).droppable({
   accept: "#okno",
-  
+
   drop: function( event, ui ) {
     $( this )
         console.log( "Dropped okno!" );
@@ -131,7 +130,7 @@ $( "#drop-okno" ).droppable({
 
 $( "#drop-kocka" ).droppable({
   accept: "#kocka",
-  
+
   drop: function( event, ui ) {
     $( this )
         console.log( "Dropped kocka!" );
@@ -151,7 +150,7 @@ $( "#drop-zachod" ).droppable({
 
 $( "#drop-vaza" ).droppable({
   accept: "#vaza",
-  
+
   drop: function( event, ui ) {
     $( this )
         console.log( "Dropped vaza!" );
@@ -161,17 +160,34 @@ $( "#drop-vaza" ).droppable({
 
 $( "#drop-lednice" ).droppable({
   accept: "#lednice",
-  
+
   drop: function( event, ui ) {
     $( this )
         console.log( "Dropped lednice!" );
         correct++;
   }
+
 });
 
+$("#results-correct").css("visibility","visible").addClass("after-submit");
+$("#results-correct").html("You got " + correct + " correct.");
 
 
 } );
 
 
+/*
 
+if (lednice == "6") {
+  correct++;
+  $("#input-lednice").css("background-color", "#d1f8b4"); //correct answer
+} else {
+  $("#input-lednice").css("background-color", "#ffded6"); //incorrect answer
+};
+
+$("#results-correct").css("visibility","visible").addClass("after-submit");
+$("#results-correct").html("You got " + correct + " correct.");
+
+
+
+*/

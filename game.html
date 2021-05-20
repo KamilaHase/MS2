@@ -20,12 +20,12 @@
         <div class="row">
 
             <div class="col-md-7 house-hero-picture-game">
-               <div class="empty" id="empty-postylka"></div>
-               <div class="empty" id="empty-okno"></div>
-               <div class="empty" id="empty-kocka"></div>
-               <div class="empty" id="empty-zachod"></div>
-               <div class="empty" id="empty-vaza"></div>
-               <div class="empty" id="empty-lednice"></div>
+               <div class="drop" id="drop-postylka"></div>
+               <div class="drop" id="drop-okno"></div>
+               <div class="drop" id="drop-kocka"></div>
+               <div class="drop" id="drop-zachod"></div>
+               <div class="drop" id="drop-vaza"></div>
+               <div class="drop" id="drop-lednice"></div>
             </div>  
          
            <div class="col-md-5">
@@ -94,7 +94,8 @@
                 <div class="p-md-2 btns-action">
                     <div class="row">
                         <div class="col d-flex justify-content-center ms-2">
-                            <button class=" btn btn-check-answers ms-1" type="button" onclick="check();">Check answers</button>
+                            <button class="btn btn-check-answers-sm ms-1" type="button" onclick="check();">Check answers</button>
+                            <button class="btn btn-check-answers-lg ms-1" type="button" onclick="checkLg();">Check answers</button>
                             <button class=" btn btn-reload-page ms-1" type="button" onclick="reloadPage();">New words</button>
                             <a href="index.html" class=" btn btn-try-again ms-1" role="button">Try again</a>
                         </div>

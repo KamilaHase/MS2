@@ -181,35 +181,24 @@ p {
     font-family: 'Allerta Stencil', sans-serif;
 }
 
-#timer-font-sm {
-    color: #FFFFFF;
-    font-size: 15px;
-    font-family: 'Allerta Stencil', sans-serif;
-}
-
 .timer-lg {
-    background-color: #0a4b69;; 
+    background-color: #0c93d1;; 
     border-radius: 0.9rem;
-    margin-top: 5px;
-    padding: 0;
-}
-
-.timer-sm {
-    background-color: #0a4b69;;
-    font-family: 'Allerta Stencil', sans-serif;
-    color: #FFFFFF;
-    font-size: 15px;
-    border-radius: 0.9rem;
-    margin-top: 2px;
+    margin-top: 5rem;
     padding: 0;
 }
 
 .btn-go-to-game {
-    background-color: #0a4b69;;
+    background-color: #0c93d1;
     font-family: 'Allerta Stencil', sans-serif;
     color: #FFFFFF;
     font-size: 15px;
     border-radius: 0.9rem;
+}
+
+.btn-go-to-game:hover {
+    background-color: #55c6fa;
+    color: #FFFFFF;
 }
 
 
@@ -286,12 +275,6 @@ p {
     transition: opacity 0.2s;
 }
 
-/*
-.draggable-cards:hover {
-        opacity: 0.5;
-}
-*/
-
 .answer-input {
     border-radius: 1rem;
     text-align: center;
@@ -301,6 +284,7 @@ p {
     width: 100%;
     position: relative;
 }
+
 .btn-check-answers-lg {
     background-color: #f5edee;
     font-family: 'Allerta Stencil', sans-serif;
@@ -378,7 +362,7 @@ p {
 }
 
 .btns-action {
-    margin-top: 8vh;
+    margin-top: 6vh;
 }
 
 .after-submit {
@@ -386,20 +370,21 @@ p {
     color: #04bc89;
     background: #fff;
     font-family: 'Allerta Stencil', sans-serif;
+    align-items: center;
     border-radius: 0.9rem;
-    margin: 1rem;
-    padding: 1rem;
+    margin-top: 0.2rem;
+    padding: 0.1rem;
     border-radius: 50px; color: #04bc89;
-    box-shadow: 0 0 10px 0 #04bc89 inset, 0 0 20px 1px #04bc89; border: 0.5px solid #04bc89;
+    box-shadow: 0 0 5px 0 #04bc89 inset, 0 0 10px 1px #04bc89; border: 0.5px solid #04bc89;
 }
 
 .instructions-game {
-        background-color: #0a4b69;
+        background-color: #0c93d1;
         font-family: 'Allerta Stencil', sans-serif;
         color: #FFFFFF;
         font-size: 15px;
         border-radius: 0.9rem;
-        margin-top: 5px;
+        margin-top: 5rem;
         padding: 0;
     }
 
@@ -408,7 +393,7 @@ p {
 
 @media(max-width: 992px) {
     .house-hero-picture {
-         max-height: 30vh;
+         max-height: 45vh;
 }
 
 .house-hero-picture-game {
@@ -420,12 +405,22 @@ p {
     position: relative;
 }
 
+
+.instructions-game {
+    margin-top: 0.3rem;
+}
+
+
 .instructions-lg {
     display: none;
 }
 
 .btn-check-answers-lg {
     display: none;
+}
+
+.btns-action {
+    margin-top: 2vh;
 }
 
 #drop-postylka {
@@ -445,14 +440,12 @@ p {
 }
 
 #drop-vaza {
-    display: none;
-    
+    display: none;  
 }
 
 #drop-lednice {
     display: none;
 }
-
 
 .footer-hidden-sm {
     display: none;
@@ -484,20 +477,6 @@ p {
     }
   }
 
-  
-  @media(min-width: 768px) {
-    .timer-sm {
-        display: none;
-    }
-  }
-
-  @media(max-width: 768px) {
-    .timer-lg {
-        display: none;
-    }
-  }
-
-
   @media(max-width: 700px) {
 
     body {
@@ -516,11 +495,6 @@ p {
     #motto {
         padding-top: 1rem;
      }
-
-     .game-section {
-         max-height: 400px;
-     }
-
      
      
 .introduction-card {
@@ -544,6 +518,10 @@ p {
     display: none;
 }
 
+.after-submit {
+    margin-top: 1rem;
+    padding: 1rem;
+}
 
 #input-postylka {
     display: none;

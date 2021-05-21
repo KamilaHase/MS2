@@ -94,8 +94,10 @@ $("#results-correct").html("You got " + correct + " correct.");
 
 // jquery
 
-$( function checkLg() {
 let correct = 0;
+
+$(function() {
+  
 
 $( "#postylka, #okno, #kocka, #zachod, #vaza, #lednice" ).draggable();
 
@@ -105,17 +107,8 @@ $( "#drop-postylka" ).droppable({
   drop: function( event, ui ) {
     $( this )
         console.log( "Dropped postylka!" );   
-        correct++;
+        correct++;  
   }
-
-  /*
-    if (accept: "#postylka") {
-    correct++;
-    $("#lednice").css("background-color", "#d1f8b4") //correct answer
-  } else {
-    $("#lednice").css("background-color", "#ffded6"); //incorrect answer
-  } */
-
 });
 
 $( "#drop-okno" ).droppable({
@@ -133,7 +126,7 @@ $( "#drop-kocka" ).droppable({
 
   drop: function( event, ui ) {
     $( this )
-        console.log( "Dropped kocka!" );
+        console.log( "Dropped kocka!" );  
         correct++;
   }
 });
@@ -143,7 +136,7 @@ $( "#drop-zachod" ).droppable({
   
   drop: function( event, ui ) {
     $( this )
-        console.log( "Dropped zachod!" );
+        console.log( "Dropped zachod!" );    
         correct++;
   }
 });
@@ -153,7 +146,7 @@ $( "#drop-vaza" ).droppable({
 
   drop: function( event, ui ) {
     $( this )
-        console.log( "Dropped vaza!" );
+        console.log( "Dropped vaza!" ); 
         correct++;
   }
 });
@@ -165,29 +158,74 @@ $( "#drop-lednice" ).droppable({
     $( this )
         console.log( "Dropped lednice!" );
         correct++;
-  }
+    }
+  });
 
 });
 
-$("#results-correct").css("visibility","visible").addClass("after-submit");
-$("#results-correct").html("You got " + correct + " correct.");
 
 
-} );
+function checkLg() {
+  
+  $("#results-correct").css("visibility","visible").addClass("after-submit");
+  $("#results-correct").html("You got " + correct + " correct.");
+
+}
+
+
 
 
 /*
 
-if (lednice == "6") {
-  correct++;
-  $("#input-lednice").css("background-color", "#d1f8b4"); //correct answer
-} else {
-  $("#input-lednice").css("background-color", "#ffded6"); //incorrect answer
-};
+function checkLg() {
+  let dropPostylka = $("#postylka").droppable({accept: "#postylka"});
+  let dropOkno = $("#drop-okno").droppable({accept: "#okno"});
+  let dropKocka = $( "#drop-kocka" ).droppable({accept: "#kocka"});
+  let dropZachod = $( "#drop-zachod" ).droppable({accept: "#zachod",});
+  let dropVaza = $( "#drop-vaza" ).droppable({accept: "#vaza",});  
+  let dropLednice = $("#drop-lednice").droppable({accept: "#lednice"});
+  let correct = 0;
+
+
+  if (dropPostylka) {
+    $("#postylka").css("background-color", "#d1f8b4"); //correct answer
+   }  else {
+    $("#postylka").css("background-color", "#ffded6"); //incorrect answer
+  }
+  
+  if (dropOkno) {
+    $("#okno").css("background-color", "#d1f8b4"); //correct answer
+   }  else {
+    $("#okno").css("background-color", "#ffded6"); //incorrect answer
+  }
+
+  if (dropKocka) {
+    $("#kocka").css("background-color", "#d1f8b4"); //correct answer
+  }  else {
+    $("#kocka").css("background-color", "#ffded6"); //incorrect answer
+  }
+
+  if (dropZachod) {
+    $("#zachod").css("background-color", "#d1f8b4"); //correct answer
+  }  else {
+    $("#zachod").css("background-color", "#ffded6"); //incorrect answer
+  }
+  
+  if (dropVaza) {
+    $("#vaza").css("background-color", "#d1f8b4"); //correct answer
+  }  else {
+    $("#vaza").css("background-color", "#ffded6"); //incorrect answer
+  }
+
+  if (dropLednice) {
+    $("#lednice").css("background-color", "#d1f8b4"); //correct answer
+  }  else {
+    $("#lednice").css("background-color", "#ffded6"); //incorrect answer
+  }
 
 $("#results-correct").css("visibility","visible").addClass("after-submit");
 $("#results-correct").html("You got " + correct + " correct.");
 
-
+};
 
 */

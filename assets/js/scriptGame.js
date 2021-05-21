@@ -95,19 +95,22 @@ $("#results-correct").html("You got " + correct + " correct.");
 // jquery
 
 let correct = 0;
+let score = function () {
+  for (correct; i > 2; i++);
+};
 
 $(function() {
   
-
 $( "#postylka, #okno, #kocka, #zachod, #vaza, #lednice" ).draggable();
 
 $( "#drop-postylka" ).droppable({
   accept: "#postylka",
   
-  drop: function( event, ui ) {
+  drop: function() {
     $( this )
-        console.log( "Dropped postylka!" );   
-        correct++;  
+    .addClass("drop-correct");    
+    console.log( "Dropped postylka!" );   
+        correct++;
   }
 });
 
@@ -116,6 +119,7 @@ $( "#drop-okno" ).droppable({
 
   drop: function( event, ui ) {
     $( this )
+        .addClass("drop-correct");  
         console.log( "Dropped okno!" );
         correct++;
   }
@@ -126,6 +130,7 @@ $( "#drop-kocka" ).droppable({
 
   drop: function( event, ui ) {
     $( this )
+        .addClass("drop-correct");
         console.log( "Dropped kocka!" );  
         correct++;
   }
@@ -136,6 +141,7 @@ $( "#drop-zachod" ).droppable({
   
   drop: function( event, ui ) {
     $( this )
+        .addClass("drop-correct");
         console.log( "Dropped zachod!" );    
         correct++;
   }
@@ -146,6 +152,7 @@ $( "#drop-vaza" ).droppable({
 
   drop: function( event, ui ) {
     $( this )
+        .addClass("drop-correct");
         console.log( "Dropped vaza!" ); 
         correct++;
   }
@@ -156,21 +163,20 @@ $( "#drop-lednice" ).droppable({
 
   drop: function( event, ui ) {
     $( this )
+        .click("#check-lg").addClass("drop-correct");
         console.log( "Dropped lednice!" );
         correct++;
+        $("#lednice").css("background-color", "#d1f8b4");
     }
   });
 
 });
 
 
-
 function checkLg() {
-  
   $("#results-correct").css("visibility","visible").addClass("after-submit");
   $("#results-correct").html("You got " + correct + " correct.");
-
-}
+};
 
 
 
@@ -184,7 +190,6 @@ function checkLg() {
   let dropZachod = $( "#drop-zachod" ).droppable({accept: "#zachod",});
   let dropVaza = $( "#drop-vaza" ).droppable({accept: "#vaza",});  
   let dropLednice = $("#drop-lednice").droppable({accept: "#lednice"});
-  let correct = 0;
 
 
   if (dropPostylka) {

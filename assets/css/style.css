@@ -212,6 +212,7 @@ p {
     border-radius: 0.9rem;
 }
 
+
 /*-------------------------GAME---*/
 .house-hero-picture-game {
     background-image: url("../images/main-house-horizontal-erased.png");
@@ -220,6 +221,12 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.drop-correct {
+    background-color: transparent;
+    border-radius: 50px; -webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out; color: #04bc89;
+    box-shadow: 0 0 10px 0 #04bc89 inset, 0 0 20px 3px #04bc89; border: 2px solid #04bc89;
 }
 
 
@@ -258,19 +265,18 @@ p {
 #drop-vaza {
     position: absolute;
     top: 70%;
-    left: 3%;
+    left: 8%;
     height: 15%;
-    width: 42%;
+    width: 38%;
 }
 
 #drop-lednice {
     position: absolute;
     top: 68%;
-    right: 1%;
+    right: 7%;
     height: 26%;
-    width: 38%;
+    width: 35%;
 }
-
 
 .draggable-cards {
     cursor: move;

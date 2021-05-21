@@ -110,7 +110,7 @@ $( "#drop-postylka" ).droppable({
     $( this )
     .addClass("drop-correct");    
     console.log( "Dropped postylka!" );   
-        correct++;
+    correct++;
   }
 });
 
@@ -163,10 +163,9 @@ $( "#drop-lednice" ).droppable({
 
   drop: function( event, ui ) {
     $( this )
-        .click("#check-lg").addClass("drop-correct");
+        .addClass("drop-correct");
         console.log( "Dropped lednice!" );
         correct++;
-        $("#lednice").css("background-color", "#d1f8b4");
     }
   });
 
@@ -174,6 +173,7 @@ $( "#drop-lednice" ).droppable({
 
 
 function checkLg() {
+  $(".drop-correct").css("visibility","visible")
   $("#results-correct").css("visibility","visible").addClass("after-submit");
   $("#results-correct").html("You got " + correct + " correct.");
 };

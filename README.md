@@ -52,7 +52,8 @@ Requires some user
 
 
 ## Testing
-
+- time not enough
+- the roof was not visible - img made smaller
 
 Bugs and difficulties: 
 - dragability

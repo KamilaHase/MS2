@@ -185,5 +185,5 @@ $("#check-lg").click(
           function() {
             alert("This is the end of game for now. More coming soon! But..you can always practice this one again. :-)");
           },
-          3000);
+          2000);
   });

@@ -3,7 +3,7 @@
 /* adapted from https://www.youtube.com/watch?v=_a4XCarxwr8&t=333s "How to Create a Countdown Timer with JavaScript" */
 
 const timeCountdown = document.getElementById("timer-font-lg");
-let timeSecond = 30;
+let timeSecond = 40;
 
 displayTime(timeSecond);
 

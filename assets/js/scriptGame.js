@@ -176,5 +176,5 @@ function checkLg() {
   $("#results-correct").html("You got " + correct + " correct.");
 };
 
-
+alert("This is the end of the game for now. More is coming soon!");
 

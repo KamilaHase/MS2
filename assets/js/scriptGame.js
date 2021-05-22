@@ -176,5 +176,14 @@ function checkLg() {
   $("#results-correct").html("You got " + correct + " correct.");
 };
 
-alert("This is the end of the game for now. More is coming soon!");
+/* adapted from https://stackoverflow.com/questions/8752541/jquery-delay-after-click/8752555 */
 
+$("#check-lg").click(
+  
+    function() {
+      setTimeout(
+          function() {
+            alert("This is the end of game for now. More coming soon!");
+          },
+          3000);
+  });

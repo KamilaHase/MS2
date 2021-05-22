@@ -68,7 +68,7 @@ if (zachod == "3") {
   correct++;
   $("#input-zachod").css("background-color", "#caf3e8"); //correct answer
 } else {
-  $("#input-zachod").css("background-color", "#caf3e8"); //incorrect answer
+  $("#input-zachod").css("background-color", "#ffded6"); //incorrect answer
 };
 
 if (vaza == "5") {

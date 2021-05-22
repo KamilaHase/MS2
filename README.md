@@ -1,8 +1,12 @@
 
 # VOCAB - MEMORIZE
-A game to test visual memory and at the same time viewers ability to learn new vocabulary words.
+A game to test visual memory and at the same time viewers ability to learn new vocabulary words. The presented game is a trial, or an example of a possible more expanded version with many images and different vocabulary words. 
+The aim of this game is to help people who are learning new languages to develop their vocabulary in a playfull way. It is especially developed for people with visual memory who associate the learning material to images and later on are reminded
 
- 
+
+
+
+Requires some user
 ## UX
 ### User stories:
   - Expected goals of first time page visitors:
@@ -36,6 +40,7 @@ A game to test visual memory and at the same time viewers ability to learn new v
 ### Features Left to Implement
 - colours might need to be changed in the future, they were adapted to match with the hero image
 - alert 
+- button for future "more game" - "next image and vocabulary"
 
 ## Technologies Used
 (adapted accordingly by: https://github.com/Code-Institute-Solutions/SampleREADME)

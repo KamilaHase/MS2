@@ -183,7 +183,7 @@ $("#check-lg").click(
     function() {
       setTimeout(
           function() {
-            alert("This is the end of game for now. More coming soon!");
+            alert("This is the end of game for now. More coming soon! But..you can always practice this one again. :-)");
           },
           3000);
   });

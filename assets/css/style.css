@@ -6,15 +6,12 @@ font-family: 'Roboto', sans-serif;
 */
 
 body {
-    
     font-family: 'Roboto', sans-serif;
-    
 }
 
 h3 {
     font-family: 'Allerta Stencil', sans-serif;
-    color: #04bc89;
-    
+    color: #04bc89;  
 }
 
 p {
@@ -24,6 +21,10 @@ p {
 
 .p-white {
     color: #fff;
+}
+
+.white-text {
+    color: #FFFFFF;
 }
 
 .footer-index {
@@ -50,11 +51,8 @@ p {
     font-size: 0.6rem;  
 }
 
-.white-text {
-    color: #FFFFFF;
-}
 
-/*------------NAVBAR---------------*/
+/*----------------------------------------------------------INTRODUCTION PAGE - INDEX.HTML---------------*/
 
 .body-index-color {
     background-color: #116661;
@@ -67,11 +65,8 @@ p {
     margin-top: 4rem;
     margin-left: 3rem;
     float: left;
-    
 }
 
-
-/*------------INTRODUCTION PAGE - INDEX.HTML---------------*/
 .introduction-card {
     margin-top: 4.5rem;
     padding: 1.75rem;
@@ -96,7 +91,6 @@ p {
 .images-introduction-bottom {
     display: inline-block;
     }
-
 
 .img-kettle {
     height: 8vh;
@@ -126,7 +120,6 @@ p {
     position: relative; 
 }
 
-
 .img-lamp {
     height: 200px;
     margin-top: -10px;
@@ -134,11 +127,7 @@ p {
 }
 
 
-
-
-
-
-/*------------GET READY--------------*/
+/*--------------------------------------------------------GET READY--------------*/
 .get-ready-body-color {
     background-color: #f5f5f5;
 }
@@ -150,7 +139,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;   
 }
-
 
 .vocab-cards-both {
     margin-left: 20px;
@@ -193,7 +181,7 @@ p {
 }
 
 
-/*-------------------------GAME---*/
+/*----------------------------------GAME----------------------------------------------*/
 .house-hero-picture-game {
     background-image: url("../images/main-house-horizontal-erased.png");
     height: 100vh;
@@ -203,15 +191,12 @@ p {
     position: relative;
 }
 
-/*---https://www.sliderrevolution.com/resources/css-button-hover-effects/ ---*/
-
 .drop-correct {
     visibility: hidden;
     background-color: transparent;
     border-radius: 50px; color: #04bc89;
-    box-shadow: 0 0 10px 0 #04bc89 inset, 0 0 20px 1px #04bc89; border: 1px solid #04bc88;
+    box-shadow: 0 0 10px 0 #04bc89 inset, 0 0 20px 1px #04bc89; border: 1px solid #04bc88; /*-glow effect adapted from https://www.sliderrevolution.com/resources/css-button-hover-effects/ ---*/
 }
-
 
 #drop-postylka {
     position: absolute;
@@ -380,7 +365,7 @@ p {
     }
 
 
-/*-------------------------Media queries---*/
+/*--------------------------------------------------------Media queries---------------------------*/
 
 @media(max-width: 992px) {
     .house-hero-picture {
@@ -396,7 +381,6 @@ p {
     position: relative;
 }
 
-
 .instructions-game {
     margin-top: 0.3rem;
 }
@@ -404,7 +388,6 @@ p {
 .timer-lg {
     margin-top: 0.3rem;
 }
-
 
 .instructions-lg {
     display: none;

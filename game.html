@@ -10,9 +10,12 @@
       <link rel="stylesheet" href="assets/css/style.css">
       <title>Vocab-Memorize</title>
    </head>
+
    <body class="get-ready-body-color">
+   <!--container for image and all text-->
       <section class="container">
          <div class="row">
+            <!--image with erased areas and drop in areas-->
             <div class="col-md-7 house-hero-picture-game">
                <div class="drop" id="drop-postylka"></div>
                <div class="drop" id="drop-okno"></div>
@@ -21,6 +24,8 @@
                <div class="drop" id="drop-vaza"></div>
                <div class="drop" id="drop-lednice"></div>
             </div>
+
+            <!--instructions-->
             <div class="col-md-5">
                <div class="row">
                   <div class="col-12">
@@ -29,6 +34,8 @@
                         <p class="p-white instructions-sm">Where do the missing items belong? Write in the number.</p>
                      </div>
                   </div>
+
+                  <!--vocabulary words only in Czech-->
                   <div class="row vocab-cards p-0 m-0 mt-md-3 lh-1 d-flex justify-content-center" id="draggable-cards">
                      <div class="col-lg-4 shadow-sm bg-body cards draggable-cards" id="postylka" draggable="true">
                         <div class="card-body pt-1 ps-0 pe-0 pb-0 text-center gap-0">
@@ -79,9 +86,11 @@
                         </div>
                      </div>
                   </div>
+                  <!--pop up message after submit-Check answers-->
                   <div class="d-flex justify-content-center m-md-3" id="after-submit">
                      <p id="results-correct"></p>
                   </div>
+                  <!--other action buttons-->
                   <div class="p-md-2 btns-action">
                      <div class="row">
                         <div class="col d-flex justify-content-center ms-2">
@@ -97,6 +106,7 @@
          </div>
       </section>
 
+   <!--footer-->
       <footer class="footer fixed-bottom bg-transparent">
          <div class="row"> 
              <div class="col d-flex justify-content-end me-4">

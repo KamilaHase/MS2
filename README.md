@@ -164,9 +164,16 @@ The following features could be implemented on the current version of game:
 The website was opened in Chrome, Mozzilla Firefox, Safari and Microsoft Edge to test all features and their functions. Also cache was cleared every time before I loaded the page. All functions, links and buttons work well. 
 Main concern was the functionality of the game and showing the results. It was tested on many devices, brands sent to family members in order to receive feedback.
 
-#### Testing User Stories from User Experience (UX) Section: Game walkthrough
+#### Testing User Stories from User Experience (UX) Section: 
+## Game walkthrough
 **Start** - Index page: the user reads the instructions, possibly clicks on images to see if there is any interaction. In the end clicks on "Let´s go button" that leads him to the game. 
-**Get ready** - User screens the page, looks at the image and sees the timer is already counting. 
+**Get ready** - User looks at the page, looks at the image and sees the timer is already counting. Then tries to remember as much as possible, timer off, new page loads. 
+**Game**
+  **Computer version** - Now he/she sees two words and missing areas on the image. The instruction encourages him to grab the words and place them correctly. He/she may try to grab them and move with the words around. Eventually tries to find the correct area and place it to the corect location on image. Clicks on "Check answer" and gets results in numbers and also green glow appears on locations that were filled in correctly. If understood well, he/she may want to try to get some new words, clicks on "New words", gets two new random words and plays again. After submitting "Check answer" again and probably waits for what to do next.
+  **Touch screen version** - When getting to Game page, user sees image of the house with numbers on it instead of the original items. User is supposed to write in the correct number to the input area. When clicking on "Check answer", an information pops up with the number of correct answers, at the same time, background of input changes color: green/turquise if correct, red if wrong. 
+  
+  Three seconds submitting the answers an alert shows up saying this is the end of the game for now and more is coming. User either leaves the game or goes back and tries to memorize the words again.
+  
 
 ##### First Time Visitor Goals
 

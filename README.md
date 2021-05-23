@@ -9,8 +9,6 @@ The interactions that is offered to the user are developed in two ways according
 The presented game is a trial, or an example of a possible more expanded version with many images and different vocabulary words.
 The game is currently developed for learning vocabulary in Czech language but can be easily adapted to more languages.
 
-
-Requires some user
 ## UX
 As mentioned, the game is developed as an example of an expanded version so in that case there would be many more user´s expectations, or reasons why to use this game and come back to it. However in this ReadMe file I will be describing only the actual current version of website that now exists. 
 ### User stories:
@@ -118,6 +116,7 @@ The following features could be implemented on the current version of game:
 - alert functionality (after submit) should be added to touch screens
 - change color in computer version - it would be nicer if after clicking on submit "Check answers" the actual words would change their background color according to if they were placed correctly or wrong
 - button with detailed instructions on game section
+- many more options in design - e.g. add movement to the lamp in index.html, add interactivity to item images: e.g. on hover they would shake/turn around etc.
 
 ## Technologies Used
 (adapted accordingly by: https://github.com/Code-Institute-Solutions/SampleREADME)
@@ -138,13 +137,15 @@ The following features could be implemented on the current version of game:
 
 ## Testing
 
-**Bugs and difficulties:** 
+**Bugs and problems in development:** 
 - **Responsiveness**
   - Responsiveness created a rather big challenge in developing this game. Despite the simple look of the game, there is many small items that were "floating" around, not wanting to fall into the correct spot. Using Bootstrap was of help but also created unwanted "behaviour" of certain items that were time consuming to fix.
   - There is a bug with the two versions for tablet users - if a tablet is positioned vertically, the correct "input" version for touch screens appears but if positioned horizontally, the browser reads it as a large screen and presents the drag and drop version.
   - **Main image - The House** - It was rather difficult to style the size and position of the house to fit well on all screen sizes. Certain devices show the image differently, some of them cropped the image too much and the roof of the house was not visible, therefore the users couldn´t fill in their answers. Certain screen sizes also demand to scroll down to show the entire page. This was a rather challenging task to fix and unfortunately some devices do not show the image in full size.
   - **Drag and drop** - drag and drop was an issue as the touch screens do not support this function. Also it was a challenge for me how to show different colors of the correct/wrong answers - if the dropped position was correct. My original idea was to change color of the word cards - if they were place correctly or wrong. Unfortunately later on I realized it would demand more time to develop such functionality and as consulted with tutor, I decided to make this function simpler: only mark which words were placed correct on the droppable area. Those who are wrong are left without any change of color.
   - **Footer** - footer on main page was no issue, but when it came to the game and get-ready sites, it was causing some troubles. I wanted to place the footer under all text but not under the house image. Unfortunately Bootstrap was not helping well with this as it does not provide the tool of "fixed-md-bottom" but only "fixed-bottom" or nothing. Either the footer was shown under the house image or if it was positioned fixed-bottom was in the way of the cards in small screen sizes. In the end I decided to adapt the small screen sizes to show house image smaller and provide space for footer (and also secure the house to be always shown in full size,not being cropped), unfortunately on certain phones the footer can still interfere with the buttons after submitting "Check anwers" (then the score appears and buttons are pushed lower).
+   - **Time** - testing showed there was needed to be longer time given to the users. Originally there was 30 seconds for memorizing the vocabulary, but the feedback showed the users needed some time to look at the page and understand the principle. Therefore 10 additional seconds were added to give 40 seconds for memorizing in total. 
+  - **Level of skills** - testing showed that the users need to have some general experience with using computers and touch screens. Those (mainly of older age) were not that much familiar with scrolling the phone screen and therefore moving the image up and down to see the entire page. Also to some of them it was difficult to understand how to write in the numbers. According to this feedback I made the house image smaller so that it will be as visible in full size.
 
 - alert is visible only on large screens.. 
 
@@ -160,9 +161,13 @@ The following features could be implemented on the current version of game:
 - https://jigsaw.w3.org/css-validator/validator
 
 #### Testing of features:
-The website was opened in Chrome, Mozzilla Firefox, Safari and Microsoft Edge to test all features and their functions. Also cache was cleared every time before I loaded the page. All links leading to different website open in new windows.
+The website was opened in Chrome, Mozzilla Firefox, Safari and Microsoft Edge to test all features and their functions. Also cache was cleared every time before I loaded the page. All functions, links and buttons work well. 
+Main concern was the functionality of the game and showing the results. It was tested on many devices, brands sent to family members in order to receive feedback.
 
-#### Testing User Stories from User Experience (UX) Section
+#### Testing User Stories from User Experience (UX) Section: Game walkthrough
+**Start** - Index page: the user reads the instructions, possibly clicks on images to see if there is any interaction. In the end clicks on "Let´s go button" that leads him to the game. 
+**Get ready** - User screens the page, looks at the image and sees the timer is already counting. 
+
 ##### First Time Visitor Goals
 
 ##### Second Time Visitor Goals
@@ -171,15 +176,41 @@ The website was opened in Chrome, Mozzilla Firefox, Safari and Microsoft Edge to
 
 
 ## Deployment
+The website was developed on hosting page GitHub with a help of GitPod. Therefore the deployed page is hosted on Github Pages.
+Now the website is published on: https://kamilahase.github.io/MS2-Vocab-Memorize/index.html
 
 ### GitHub Pages
+(credit: https://github.com/Code-Institute-Solutions/SampleREADME)
+The project was deployed to GitHub Pages using the following steps:
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+4. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+5. Under "Source", click the dropdown called "None" and select "Master Branch".
+6. The page will automatically refresh.
+7. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
+1. By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+2. Log in to GitHub and locate the GitHub Repository
+3. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+4. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+7. $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+8. Press Enter. Your local clone will be created.
+
 
 
 ## Credits
+The design of the web was my own creation. 
+The javascript code was inspired by the following tutorials and advice, in case parts of code were copied, it is marked in the code section directly: 
 - https://www.youtube.com/watch?v=_a4XCarxwr8&t=333s
 - https://www.encodedna.com/javascript/redirect-page-after-a-delay-using-javascript.htm
 - https://stackoverflow.com/questions/5489989/jquery-equivalent-for-window-document-write
@@ -187,11 +218,50 @@ The website was opened in Chrome, Mozzilla Firefox, Safari and Microsoft Edge to
 - https://www.youtube.com/watch?v=C7NsIRhoWuE
 
 ### Acknowledgements
-
+Many thanks to my mentor who provided me with insprational feedback.
+Many thanks to tutors of Code Institue who´s help was highly appreciated and saved my nerves.
 
 ### Media
 
 
 ## Full content
+
+### Vocab-Memorize
+
+Use visual memory to expand your vocabulary
+Language available: Czech
+
+You will be given two tasks. To memorize a picture that will appear AND to learn 6 new words in the Czech language. You will be given 40 seconds. When your time is up, some items on picture disappear. Can you tell what is missing and name it in Czech?
+
+Let´s go!
+
+
+**FOOTER**
+
+Facebook, Youtube, Instagram, Copyright 2021: Vocab-Memorize
+
+### Get Ready
+Memorize these words and their image location.
+Timer
+
+crib: POSTÝLKA
+cat: KOČKA
+toilet: ZÁCHOD
+vase: VÁZA
+fridge: LEDNICE
+window: OKNO
+
+Skip and go to game
+
+### Game
+
+Grab the missing items and place them where they belong. / Where do the missing items belong? Write in the number.
+
+- two random words only in Czech
+
+Check answers - New words - Try again. 
+
+Alert: This is the end of game for now. More coming soon! But..you can always practice this one again. :-)
+
 
 

@@ -184,7 +184,7 @@ Main concern was the functionality of the game and showing the results. It was t
 
 ## Deployment
 The website was developed on hosting page GitHub with a help of GitPod. Therefore the deployed page is hosted on Github Pages.
-Now the website is published on: https://kamilahase.github.io/MS2-Vocab-Memorize/index.html
+Now the website is published on: https://kamilahase.github.io/MS2-Vocab-Memorize/
 
 ### GitHub Pages
 (credit: https://github.com/Code-Institute-Solutions/SampleREADME)

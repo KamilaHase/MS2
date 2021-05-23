@@ -52,12 +52,24 @@ Requires some user
 
 
 ## Testing
+- https://www.freeformatter.com/html-formatter.html 
+- https://validator.w3.org/ 
+  - error found: 
+    index.html: Error: Stray end tag div on line 57
+    get-ready.html - Warning: Section lacks heading - From line 14, column 7; to line 14, column 33 - This is on purpose.
+    game.html - Warning: Section lacks heading - From line 14, column 7; to line 14, column 33 - This is on purpose.
+
+- https://jshint.com/ 
+- https://jigsaw.w3.org/css-validator/validator
+
 - time not enough
 - the roof was not visible - img made smaller
 
 Bugs and difficulties: 
 - dragability
 - alert is visible only on large screens.. 
+- footer
+- general responsiveness was difficult
 
 
 #### Website has been tested and corrected by: 

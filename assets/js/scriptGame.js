@@ -12,7 +12,7 @@ function shuffle(array) {
   }
 
   return array;
-};
+}
 
 var arr = $( '.draggable-cards' );
 shuffle(arr);
@@ -48,42 +48,42 @@ if (postylka == "4") {
   $("#input-postylka").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-postylka").css("background-color", "#ffded6"); //incorrect answer
-};
+}
 
 if (okno == "2") {
   correct++;
   $("#input-okno").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-okno").css("background-color", "#ffded6"); //incorrect answer
-};
+}
 
 if (kocka == "1") {
   correct++;
   $("#input-kocka").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-kocka").css("background-color", "#ffded6"); //incorrect answer
-};
+}
 
 if (zachod == "3") {
   correct++;
   $("#input-zachod").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-zachod").css("background-color", "#ffded6"); //incorrect answer
-};
+}
 
 if (vaza == "5") {
   correct++;
   $("#input-vaza").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-vaza").css("background-color", "#ffded6"); //incorrect answer
-};
+}
 
 if (lednice == "6") {
   correct++;
   $("#input-lednice").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-lednice").css("background-color", "#ffded6"); //incorrect answer
-};
+}
 
 $("#results-correct").css("visibility","visible").addClass("after-submit");
 $("#results-correct").html("You got " + correct + " correct.");
@@ -95,7 +95,6 @@ $("#results-correct").html("You got " + correct + " correct.");
 // jquery
 
 let correct = 0;
-let score = []
 
 $(function() {
   
@@ -171,7 +170,7 @@ $( "#drop-lednice" ).droppable({
 
 
 function checkLg() {
-  $(".drop-correct").css("visibility","visible")
+  $(".drop-correct").css("visibility","visible");
   $("#results-correct").css("visibility","visible").addClass("after-submit");
   $("#results-correct").html("You got " + correct + " correct.");
 };

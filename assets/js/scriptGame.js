@@ -179,16 +179,14 @@ function checkLg() {
 /* adapted from https://stackoverflow.com/questions/8752541/jquery-delay-after-click/8752555 */
 
 $("#check-lg").click(
-  
     function() {
       setTimeout(
           function() {
             if (correct === 2) {
-              // pop up with conratulations wyu have won
+              $("#congratulations").css("visibility","visible").addClass("congratulations-message");
             } else {
               //pop up with try again
             }
-          ///  alert("This is the end of game for now. More coming soon! But..you can always practice this one again. :-)");
           },
           2000);
   });

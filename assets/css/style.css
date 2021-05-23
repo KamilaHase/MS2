@@ -9,6 +9,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #04bc89;
+}
+
 h3 {
     font-family: 'Allerta Stencil', sans-serif;
     color: #04bc89;  
@@ -21,6 +26,10 @@ p {
 
 .p-white {
     color: #fff;
+}
+
+.p-turq {
+    color:#04bc89;
 }
 
 .white-text {
@@ -347,11 +356,46 @@ p {
     background: #fff;
     font-family: 'Allerta Stencil', sans-serif;
     align-items: center;
-    border-radius: 0.9rem;
     margin-top: 0.2rem;
     padding: 0.1rem;
     border-radius: 50px; color: #04bc89;
     box-shadow: 0 0 5px 0 #04bc89 inset, 0 0 10px 1px #04bc89; border: 0.5px solid #04bc89;
+}
+
+#congratulations {
+    visibility: hidden;
+}
+.congratulations-message {
+    visibility: hidden;
+    z-index: 10;
+    background: #fff;
+    color: #116661
+    font-family: 'Allerta Stencil', sans-serif;
+    align-self: center;
+    padding: 3rem;
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    left: 40%;
+    top: 35%;
+    border-radius: 50px; color: #116661;
+    box-shadow: 0 0 10px 0 #116661 inset, 0 0 15px 1px #116661; border: 0.5px solid #116661;
+}
+
+.btn-start-again {
+    background-color: #f5edee;;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #116661;
+    font-size: 15px;
+    border-radius: 0.9rem;
+}
+
+.btn-start-again:hover {
+    background-color: #116661;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 0.9rem;
 }
 
 .instructions-game {

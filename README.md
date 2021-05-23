@@ -52,7 +52,12 @@ Colors used for game sections are:
 All other colors are variants of the above.
 
 #### Imagery
-All the images presented on the website were adapted from originally two images, purchased on Shutterstock
+Branding of Vocab-Memorize uses vector images that are styled to look they were "hand drawn". The main house picture uses vector image. 
+All the images presented on the website were adapted from originally two images, purchased on [Shutterstock](https://www.shutterstock.com/).
+- images on index.html were adapted from original image: https://www.shutterstock.com/cs/image-vector/set-vector-home-items-house-icons-1743959444
+- main house image was adapted from original image: https://www.shutterstock.com/cs/image-vector/house-cut-detailed-modern-interior-many-282624269
+
+All adaptation of pictures to fit the website and its purposes were made later on by me.
 
 #### Wireframes
 
@@ -61,26 +66,89 @@ All the images presented on the website were adapted from originally two images,
 
 
 ## Features
-
+The game is presented in a playfull yet simple look. There is as little items presented possible in order to lead the focus on the actual game part. 
 ### Existing Features
 
-- **Navigation** 
+- **Main page - Index.html** 
+  -  Introduces the playfull feeling of a game where there will be not only vocabulary words to be remembered but also visual items - therefore there are three areas important: main logo and name of game presented by logo Vocab-Memorize in large size, instructions already hinting the style of brand - use of colors and font and single images representing the need of memorize new words but also their area on website. 
+  - There is no navbar on purpose in order to bring in "player mode", a little bit of "being led" feeling, loss of control. 
+  - link to start the game on button "Let´s go" leads to new page get-ready.html
+  - Footer to present links to social media - external resources of information about the game (fictional) and Copyright (fictional)
+
+- **Get ready** 
+  - Immeadiately after entering page there is timer that starts the countdown. There is no option to stop the countdown. 
+  - There is the main image of a house where all items are shown. The image was chosen to present the images in context, not only a list of things, therefore I picked an image of a house where all items belong to certain category (and help the used connect them to other topics, memories, etc., simply to create better connections). The image of the house is on purpose with some areas on the sides which helps it to show correctly on different screen sizes.
+  - Cards with vocabulary words are static, no interaction is available.
+  - There is an option to skip the memorizing part and go directly to game (link to game.html). Reason for this is for second (or more) time users who believe they do not to refresh their memory of the game, or for people who wanted to go back to main page, read again instructions and go back to game. 
+  - Footer on the bottom of page in branding colors and links to social media. Footer is hidden for smaller screens in order to provide more space for actual vocabulary words and image.
+
+  
+- **Game** 
+  - As mentioned above, there are two versions of the game. One for computers, one for touch screens. Both versions start with randomly selecting two words from the vocabulary (2 out of 6) and presenting them to the user. Both versions show the same main image (from get-ready.html) but adapted accordingly.
+
+  - **Computer version**
+    - The computer version shows the main image with blank areas - places where on original versions were placed items listed in the vocabulary words. 
+    - The user gets instruction: "Grab the missing items and place them where they belong."
+    - Therefore the computer version uses drag and drop function where words can be dragged by mouse and moved around. On purpose there is no effect while the items are dragged so that it wouldn´t help the user to see where the correct location of word is. The words can be dragged all around the screen and dropped wherever the user decides without any design effect support.
+    - Below the two words there are three buttons triggering some action: 
+    1. **Check answers**
+      - Clicking on button triggers function to check what words were placed correctly and a text (styled in branding colors) appears: "You got ´number of correct´ correct". At the same time, those words that were placed correctly show a turquise glow (branding color) in the area that accepts the word. The area that accepts the word is made on purpose much larger than the actual item was in order to provide some kind of flexibility in the game and also to clear the difference between the actual size of the erased item and the card with word.
+      - As there is no official end to the game, 3 seconds after clicking on "Check answers" appears an alert with information: "This is the end of game for now. More coming soon! But..you can always practice this one again. :-)".  
+    2. **New words** 
+      - Button reloads the page and provides two new randomly picked words.
+    3. **Try again**
+      - Button links the user to main page - index.html
+
+- **Touch screens version**
+  - Touch screens are more complicated (if possible at all) to create such drag and drop functionality as I implemented to the large screens. Therefore to provide phone and tablet users the option to play the game anyway, a different version of the game is presented. The Touch screen version is implemented only on game.html site, the get-ready.html and index.html are the same for both versions.
+  - Touch screens show different version of main house image - the items were erased but on the blank areas was added a sign - circle with a number in the middle marking a location of an erased item.
+  - Two random words (from the previous list of 6) are also presented, but there is no drag and drop funcitonality, there is added an input field where user simply writes in number where this specific item belongs on the image.
+  - The instruction is therefore different: "Where do the missing items belong? Write in the number."
+  - The buttons are almost identical as on computer version (see above), only **Check answers** varies: after submiting the answers, the input background changes accordingly if the number filled in is correct or wrong. Colors of input background fit the branding style.
+
    
 ### Features Left to Implement
-- colours might need to be changed in the future, they were adapted to match with the hero image
-- alert 
-- button for future "more game" - "next image and vocabulary"
+The game provides many creative future implementations such expansions with more images and words, adding other sections, new languages, more profound feedback of the progress of learning (statistics, hints what area to focus on, button at the end leading to next image etc.). 
+The following features could be implemented on the current version of game:
+- timer: 
+  - user could decide how much time he/she needs to memore the words
+  - timer could be added also to the actual game, either as a fixed time or user could decide how much time he/she needs
+
+- words and their random appearance: there could be function that tracks words that were answered/fill in wrong and it could bring these wrong words back until the user answers their correct location
+- alert functionality (after submit) should be added to touch screens
+- change color in computer version - it would be nicer if after clicking on submit "Check answers" the actual words would change their background color according to if they were placed correctly or wrong
+- button with detailed instructions on game section
 
 ## Technologies Used
 (adapted accordingly by: https://github.com/Code-Institute-Solutions/SampleREADME)
 - **Bootstrap v5.0** - Bootstrap was used to assist with the responsiveness and styling of the website.
 - **Google Fonts** - Google fonts were used to import all fonts into the style.css file which is used on all pages throughout the project.
+- **jQuery** - to provide support with javascript codes
+- **Git** - used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- **GitHub** - used to store the projects code after being pushed from Git.
 
-- **Painting** - was used to crop images
+- technologies to adapt the images (crop, adding the number circles for touch screen version, removing background etc.): 
+  -**Media Bang Paint Pro**
+  - **Photoshop Editor**
+  - **Painting**
+
 - **MS Office Power Point** - used for creating wireframes
+- ** ** for mockups
 
 
 ## Testing
+
+**Bugs and difficulties:** 
+- **Responsiveness**
+  - Responsiveness created a rather big challenge in developing this game. Despite the simple look of the game, there is many small items that were "floating" around, not wanting to fall into the correct spot. Using Bootstrap was of help but also created unwanted "behaviour" of certain items that were time consuming to fix.
+  - There is a bug with the two versions for tablet users - if a tablet is positioned vertically, the correct "input" version for touch screens appears but if positioned horizontally, the browser reads it as a large screen and presents the drag and drop version.
+  - **Main image - The House** - It was rather difficult to style the size and position of the house to fit well on all screen sizes. Certain devices show the image differently, some of them cropped the image too much and the roof of the house was not visible, therefore the users couldn´t fill in their answers. Certain screen sizes also demand to scroll down to show the entire page. This was a rather challenging task to fix and unfortunately some devices do not show the image in full size.
+  - **Drag and drop** - drag and drop was an issue as the touch screens do not support this function. Also it was a challenge for me how to show different colors of the correct/wrong answers - if the dropped position was correct. My original idea was to change color of the word cards - if they were place correctly or wrong. Unfortunately later on I realized it would demand more time to develop such functionality and as consulted with tutor, I decided to make this function simpler: only mark which words were placed correct on the droppable area. Those who are wrong are left without any change of color.
+  - **Footer** - footer on main page was no issue, but when it came to the game and get-ready sites, it was causing some troubles. I wanted to place the footer under all text but not under the house image. Unfortunately Bootstrap was not helping well with this as it does not provide the tool of "fixed-md-bottom" but only "fixed-bottom" or nothing. Either the footer was shown under the house image or if it was positioned fixed-bottom was in the way of the cards in small screen sizes. In the end I decided to adapt the small screen sizes to show house image smaller and provide space for footer (and also secure the house to be always shown in full size,not being cropped), unfortunately on certain phones the footer can still interfere with the buttons after submitting "Check anwers" (then the score appears and buttons are pushed lower).
+
+- alert is visible only on large screens.. 
+
+#### Website has been tested and corrected by: 
 - https://www.freeformatter.com/html-formatter.html 
 - https://validator.w3.org/ 
   - error found: 
@@ -91,20 +159,8 @@ All the images presented on the website were adapted from originally two images,
 - https://jshint.com/ 
 - https://jigsaw.w3.org/css-validator/validator
 
-- time not enough
-- the roof was not visible - img made smaller
-
-Bugs and difficulties: 
-- dragability
-- alert is visible only on large screens.. 
-- footer
-- general responsiveness was difficult
-
-
-#### Website has been tested and corrected by: 
-
-
 #### Testing of features:
+The website was opened in Chrome, Mozzilla Firefox, Safari and Microsoft Edge to test all features and their functions. Also cache was cleared every time before I loaded the page. All links leading to different website open in new windows.
 
 #### Testing User Stories from User Experience (UX) Section
 ##### First Time Visitor Goals

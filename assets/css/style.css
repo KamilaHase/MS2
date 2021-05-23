@@ -60,10 +60,6 @@ p {
     background-color: #116661;
 }
 
-.navbar-bg-color {
-    background-color: rgb(179, 9, 9);
-}
-
 #logo {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 50px;
@@ -95,9 +91,6 @@ p {
 
 .btn-introduction {
     background-color: rgb(227, 248, 206);
-}
-.btn-introduction:hover {
-    color:rgb(179, 9, 9);
 }
 
 .images-introduction-bottom {

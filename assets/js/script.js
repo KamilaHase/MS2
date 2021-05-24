@@ -14,7 +14,7 @@ function shuffle(array) {
   return array;
 }
 
-var arr = $( '.draggable-cards' );
+var arr = $('.draggable-cards');
 shuffle(arr);
 $('#draggable-cards').append(arr);
 $(arr).slice(2).hide();
@@ -204,8 +204,8 @@ $("#check-lg").click(
   function hide() {
     $("#congratulations").css("display","none");
     $("#another-try").css("display","none");
-    $("#detailed-instructions-lg").css("display", "none")
-    $("#detailed-instructions-sm").css("display", "none")
+    $("#detailed-instructions-lg").css("display", "none");
+    $("#detailed-instructions-sm").css("display", "none");
   }
 
   function instructionsLg() {

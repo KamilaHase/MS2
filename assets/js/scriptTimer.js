@@ -16,7 +16,7 @@ const countdown = setInterval (() => {
         window.location.href = "game.html";
     }
     
-},1000)
+},1000);
 
 function displayTime(second) {
     const sec = Math.floor(second % 60);

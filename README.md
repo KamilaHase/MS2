@@ -157,10 +157,34 @@ The following features could be implemented on the current version of game:
     get-ready.html - Warning: Section lacks heading - From line 14, column 7; to line 14, column 33 - This is on purpose.
     game.html - Warning: Section lacks heading - From line 14, column 7; to line 14, column 33 - This is on purpose.
 
-- https://jshint.com/ 
 - https://jigsaw.w3.org/css-validator/validator
+- https://jshint.com/ 
 
 #### Testing of features:
+Website contains three pages with specific functions.
+- **Index.html**
+  - Page loads, lamp shakes from side to side - tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.
+  - On the right bottom area is a question mark icon, clicking opens a new window with detailed instructions of the game. Close button closes the window. c
+  - Footer contains links to social media: Facebook, Youtube, Instagram. Links open in new tab. (Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.)
+  - "Let´s go" button links to next page. (Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.)
+
+  - **Get-ready.html**
+    - When page finished loading, timer starts counting 40 seconds. (Works well in Chrome, Mozzilla Firefox, Safari and Microsoft Edge.)
+    - Option to click on button "Skip and go to game" to stop timer and go directly to /game.html. (Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.)
+    - When 40 seconds pass, timer shows text "TIME OUT" and automatically opens page /game.html. (Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.)
+    - Footer contains links to social media: Facebook, Youtube, Instagram. Links open in new tab. (Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.) 
+    Footer on get-ready.html is visible on large screens only!
+  
+  - **Game - computer version**
+    - Two randomly picked words are visible - function works well in Chrome, Mozzilla Firefox, Safari and Microsoft Edge.
+    - The two words are draggable with showing cursor:move - function works well in Chrome, Mozzilla Firefox, Safari and Microsoft Edge.
+    - Clicking on "Check answers":
+      - shows a shadow around area of correctly placed words-answers
+      - shows a new text with html: "You got xy correct."
+      - after around a second shows up with transition effect a new window: 
+          - one in case both the answers are correct and user scores 2. Text with nformation "Yay! You got it all correct! Congratulations!" Below is a button leading to index.html with text "Start again"
+          - second button with information
+
 The website was opened in Chrome, Mozzilla Firefox, Safari and Microsoft Edge to test all features and their functions. Also cache was cleared every time before I loaded the page. All functions, links and buttons work well. 
 Main concern was the functionality of the game and showing the results. It was tested on many devices, brands sent to family members in order to receive feedback.
 

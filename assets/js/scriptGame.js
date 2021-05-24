@@ -190,7 +190,7 @@ $("#check-lg").click(
               $("#another-try").css("display","block");
             }
           },
-          2000);
+          1000);
   });
 
   $("#check-sm").click(
@@ -203,7 +203,7 @@ $("#check-lg").click(
               $("#another-try").css("display","block");
             }
           },
-          2000);
+          1000);
   });
  
 

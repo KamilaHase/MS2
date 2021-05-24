@@ -93,7 +93,7 @@ p {
 
 .introduction-text {
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     color:#0e4f58;
 }
 
@@ -107,7 +107,7 @@ p {
 
 .images-introduction-bottom {
     display: inline-block;
-    }
+}
 
 .img-kettle {
     height: 8vh;
@@ -137,11 +137,25 @@ p {
     position: relative; 
 }
 
+.question {
+    color: #04bc89;
+    transform: scale(1);
+	animation: pulse 2s infinite;
+    cursor: help;
+    bottom: 5rem;
+    z-index: 50;
+    float: right;
+    margin-left: 0.4rem;
+}
+
 .img-lamp {
     height: 200px;
     margin-top: -10px;
     position: relative;
 }
+
+
+
 
 
 /*--------------------------------------------------------GET READY--------------*/
@@ -466,6 +480,10 @@ p {
 
 .instructions-game {
     margin-top: 0.3rem;
+}
+
+.img-apple {
+    display: none;
 }
 
 .timer-lg {

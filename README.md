@@ -43,7 +43,7 @@ All other branding colors are variants of the above.
 Second color scheme is developed to fit the main-hero house image and its colors. This color scheme might be changed if game is further developed and more images are added. There are also drops of the branding colors used on the game section pages in order to unify the overall look and remind the user it all belongs together to the same game.
 Colors used for game sections are:
 - instructions, buttons, timer: #0c93d1,
-- cards font: #ea515b,
+- cards font: #ea515b, 
 - action buttons - check, new words, try again: #f80707, #fda23e, #0a4b69.
 - background colors are picked as variants of white in accordance to the page: #f5f5f5, #f5edee.
 - check answers button triggers showing the results - font, areas showing correct answers - and is designed to support to branding of Vocab-Memorize, therefore it´s actions colors are based on #04bc89.

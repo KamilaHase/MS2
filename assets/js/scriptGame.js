@@ -32,6 +32,7 @@ location.reload(true);
 // ----VERSION FOR SMALL AND TOUCH SCREENS
 // adapted from https://www.youtube.com/watch?v=1SxMWhqYQ4k&t=1588s and https://www.youtube.com/watch?v=C7NsIRhoWuE 
 
+let correctScore = 0;
 
 function check() {
 let postylka = $("#input-postylka").val();
@@ -40,52 +41,53 @@ let kocka = $("#input-kocka").val();
 let zachod = $("#input-zachod").val();
 let vaza = $("#input-vaza").val();
 let lednice = $("#input-lednice").val();
-let correct = 0;
+
 
 if (postylka == "4") {
-  correct++;
+  correctScore++;
   $("#input-postylka").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-postylka").css("background-color", "#ffded6"); //incorrect answer
 }
 
 if (okno == "2") {
-  correct++;
+  correctScore++;
   $("#input-okno").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-okno").css("background-color", "#ffded6"); //incorrect answer
 }
 
 if (kocka == "1") {
-  correct++;
+  correctScore++;
   $("#input-kocka").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-kocka").css("background-color", "#ffded6"); //incorrect answer
 }
 
 if (zachod == "3") {
-  correct++;
+  correctScore++;
   $("#input-zachod").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-zachod").css("background-color", "#ffded6"); //incorrect answer
 }
 
 if (vaza == "5") {
-  correct++;
+  correctScore++;
   $("#input-vaza").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-vaza").css("background-color", "#ffded6"); //incorrect answer
 }
 
 if (lednice == "6") {
-  correct++;
+  correctScore++;
   $("#input-lednice").css("background-color", "#caf3e8"); //correct answer
 } else {
   $("#input-lednice").css("background-color", "#ffded6"); //incorrect answer
 }
 
 $("#results-correct").css("visibility","visible").addClass("after-submit");
-$("#results-correct").html("You got " + correct + " correct.");
+$("#results-correct").html("You got " + correctScore + " correct.");
+
 
 };
 
@@ -183,10 +185,29 @@ $("#check-lg").click(
       setTimeout(
           function() {
             if (correct === 2) {
-              $("#congratulations").css("visibility","visible").addClass("congratulations-message");
+              $("#congratulations").css("display","block").addClass("congratulations-message");
             } else {
-              //pop up with try again
+              $("#another-try").css("display","block").addClass("another-try-message");
             }
           },
           2000);
   });
+
+  $("#check-sm").click(
+    function() {
+      setTimeout(
+          function() {
+            if (correctScore === 2) {
+              $("#congratulations").css("display","block").addClass("congratulations-message");
+            } else {
+              $("#another-try").css("display","block").addClass("another-try-message");
+            }
+          },
+          2000);
+  });
+ 
+
+  function hide() {
+    $("#congratulations").css("display","none");
+    $("#another-try").css("display","none");
+  }

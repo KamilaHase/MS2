@@ -28,8 +28,16 @@ p {
     color: #fff;
 }
 
-.p-turq {
+.h2-white {
+    color: #fff;
+}
+
+.h2-turq {
     color:#04bc89;
+}
+
+.h2-pink {
+ color: #ea515b;
 }
 
 .white-text {
@@ -60,6 +68,11 @@ p {
     font-size: 0.6rem;  
 }
 
+.btn-close {
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+}
 
 /*----------------------------------------------------------INTRODUCTION PAGE - INDEX.HTML---------------*/
 
@@ -94,7 +107,7 @@ p {
 }
 
 .btn-introduction {
-    background-color: rgb(227, 248, 206);
+    background-color: #e3f8ce;
 }
 
 .images-introduction-bottom {
@@ -198,6 +211,16 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.instructions-game {
+    background-color: #0c93d1;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 0.9rem;
+    margin-top: 5rem;
+    padding: 0;
 }
 
 .drop-correct {
@@ -327,31 +350,33 @@ p {
 }
 
 .btn-try-again {
-    background-color: #f5edee;;
+    background-color: #f5edee;
     font-family: 'Allerta Stencil', sans-serif;
-    color: #0a4b69;
+    color: #054a69;
     font-size: 15px;
-    border-bottom-left-radius: 0.9rem;
-    border-bottom-right-radius: 0.9rem;
     border-top-left-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
 }
 
 .btn-try-again:hover {
-    background-color: #0a4b69;
+    background-color: #054a69;
     font-family: 'Allerta Stencil', sans-serif;
-    color: #FFFFFF;
+    color: #f5edee;
     font-size: 15px;
-    border-bottom-left-radius: 0.9rem;
-    border-bottom-right-radius: 0.9rem;
     border-top-left-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
 }
 
+
+/*-----action buttons at the end of game, pop-ups on click---*/
+/*
 .btns-action {
     margin-top: 6vh;
-}
+} */
 
 .after-submit {
-    visibility: hidden;
     color: #04bc89;
     background: #fff;
     font-family: 'Allerta Stencil', sans-serif;
@@ -363,50 +388,73 @@ p {
 }
 
 #congratulations {
-    visibility: hidden;
+    display: none;
 }
 .congratulations-message {
-    visibility: hidden;
-    z-index: 10;
+    z-index: 20;
     background: #fff;
-    color: #116661
     font-family: 'Allerta Stencil', sans-serif;
     align-self: center;
-    padding: 3rem;
     position: absolute;
-    width: 40%;
-    height: 30%;
-    left: 40%;
+    padding: 3rem;
+    width: 30%;
+    height: 22%;
+    right: 20%;
     top: 35%;
-    border-radius: 50px; color: #116661;
-    box-shadow: 0 0 10px 0 #116661 inset, 0 0 15px 1px #116661; border: 0.5px solid #116661;
+    border-radius: 0.9rem; color: #fff;
+    box-shadow: 0 0 10px 0 #fff inset, 0 0 15px 1px #fff; 
 }
 
 .btn-start-again {
-    background-color: #f5edee;;
     font-family: 'Allerta Stencil', sans-serif;
-    color: #116661;
+    color: #04bc89;
     font-size: 15px;
     border-radius: 0.9rem;
 }
 
 .btn-start-again:hover {
-    background-color: #116661;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #e3f8ce;
+    font-size: 15px;
+    border-radius: 0.9rem;
+}
+
+#another-try {
+    display: none;
+}
+
+.another-try-message {
+    z-index: 20;
+    background: #fff;
+    color: #ea515b;
+    font-family: 'Allerta Stencil', sans-serif;
+    align-self: center;
+    position: absolute;
+    padding: 2rem;
+    width: 35%;
+    height: 20%;
+    right: 22%;
+    top: 35%;
+    border-radius: 1rem; color: #ea515b;
+    box-shadow: 0 0 10px 0 #ea515b inset, 0 0 15px 1px #ea515b; border: 0.5px solid #ea515b;
+}
+
+.btn-another-try {
+    background-color: #f5edee;;
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #ea515b;
+    font-size: 15px;
+    border-radius: 0.9rem;
+}
+
+.btn-another-try:hover {
+    background-color: #ea515b;
     font-family: 'Allerta Stencil', sans-serif;
     color: #FFFFFF;
     font-size: 15px;
     border-radius: 0.9rem;
 }
 
-.instructions-game {
-        background-color: #0c93d1;
-        font-family: 'Allerta Stencil', sans-serif;
-        color: #FFFFFF;
-        font-size: 15px;
-        border-radius: 0.9rem;
-        margin-top: 5rem;
-        padding: 0;
-    }
 
 
 /*--------------------------------------------------------Media queries---------------------------*/

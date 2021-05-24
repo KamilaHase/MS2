@@ -47,6 +47,12 @@ ol {
     color: #FFFFFF;
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+}
+
 .footer-index {
     font-family: 'Allerta Stencil', sans-serif;
     color: #FFFFFF;

@@ -204,10 +204,14 @@ $("#check-lg").click(
   function hide() {
     $("#congratulations").css("display","none");
     $("#another-try").css("display","none");
-
+    $("#detailed-instructions-lg").css("display", "none")
+    $("#detailed-instructions-sm").css("display", "none")
   }
 
-  function instructions() {
+  function instructionsLg() {
     $("#detailed-instructions-lg").css("display","block").addClass("detailed-instructions-lg");
+  }
 
+  function instructionsSm() {
+  $("#detailed-instructions-sm").css("display","block").addClass("detailed-instructions-sm");
   }

@@ -40,6 +40,9 @@ p {
  color: #ea515b;
 }
 
+ol {
+    color: #116661;
+}
 .white-text {
     color: #FFFFFF;
 }
@@ -68,6 +71,9 @@ p {
     font-size: 0.6rem;  
 }
 
+.btn-close {
+    float: right;
+}
 
 /*----------------------------------------------------------INTRODUCTION PAGE - INDEX.HTML---------------*/
 
@@ -161,10 +167,24 @@ p {
     z-index: 20;
     top: 5%;
     left: 15%;
-    padding: 2rem;;
+    padding: 2rem;
     justify-content: center;
-    background-color: #fff;
+    background-color: #0e4f58;
     z-index: 20;
+    position: absolute;
+    border-radius: 0.9rem; color: #fff;
+    box-shadow: 0 0 10px 0 #fff inset, 0 0 15px 1px #fff; 
+}
+
+.detailed-instructions-sm {
+    display: none;
+    z-index: 20!important;
+    top: 1%;
+    left: 2%;
+    right: 2%;
+    padding: 0.5rem;
+    justify-content: center;
+    background-color: #0e4f58;
     position: absolute;
     border-radius: 0.9rem; color: #fff;
     box-shadow: 0 0 10px 0 #fff inset, 0 0 15px 1px #fff; 
@@ -487,8 +507,12 @@ p {
 /*--------------------------------------------------------Media queries---------------------------*/
 
 @media(max-width: 1100px) {
-    .house-hero-picture {
-         max-height: 40vh;
+#instructions-full-lg {
+    display: none;
+    }
+    
+.house-hero-picture {
+    max-height: 40vh;
 }
 
 .house-hero-picture-game {
@@ -624,7 +648,11 @@ p {
     }
   }
 
-  @media(min-width: 992px) {
+  @media(min-width: 1100px) {
+  #instructions-full-sm {
+      display: none;
+  }
+  
   .instructions-sm {
     display: none;
 }

@@ -68,11 +68,6 @@ p {
     font-size: 0.6rem;  
 }
 
-.btn-close {
-    align-items: flex-end;
-    padding: 0;
-    margin: 0;
-}
 
 /*----------------------------------------------------------INTRODUCTION PAGE - INDEX.HTML---------------*/
 
@@ -390,17 +385,14 @@ p {
 #congratulations {
     display: none;
 }
-.congratulations-message {
+.bg-congr {
+    top: 5%;
+    left: 15%;
+    padding: 2rem;;
+    justify-content: center;
+    background-color: #fff;
     z-index: 20;
-    background: #fff;
-    font-family: 'Allerta Stencil', sans-serif;
-    align-self: center;
     position: absolute;
-    padding: 3rem;
-    width: 30%;
-    height: 22%;
-    right: 20%;
-    top: 35%;
     border-radius: 0.9rem; color: #fff;
     box-shadow: 0 0 10px 0 #fff inset, 0 0 15px 1px #fff; 
 }
@@ -408,6 +400,7 @@ p {
 .btn-start-again {
     font-family: 'Allerta Stencil', sans-serif;
     color: #04bc89;
+    background-color: #e3f8ce;
     font-size: 15px;
     border-radius: 0.9rem;
 }
@@ -415,6 +408,7 @@ p {
 .btn-start-again:hover {
     font-family: 'Allerta Stencil', sans-serif;
     color: #e3f8ce;
+    background-color: #04bc89;
     font-size: 15px;
     border-radius: 0.9rem;
 }
@@ -423,20 +417,16 @@ p {
     display: none;
 }
 
-.another-try-message {
+.bg-fail {
+    top: 5%;
+    left: 15%;
+    padding: 2rem;;
+    justify-content: center;
+    background-color: #fff;
     z-index: 20;
-    background: #fff;
-    color: #ea515b;
-    font-family: 'Allerta Stencil', sans-serif;
-    align-self: center;
     position: absolute;
-    padding: 2rem;
-    width: 35%;
-    height: 20%;
-    right: 22%;
-    top: 35%;
-    border-radius: 1rem; color: #ea515b;
-    box-shadow: 0 0 10px 0 #ea515b inset, 0 0 15px 1px #ea515b; border: 0.5px solid #ea515b;
+    border-radius: 0.9rem; color: #fff;
+    box-shadow: 0 0 10px 0 #fff inset, 0 0 15px 1px #fff;
 }
 
 .btn-another-try {
@@ -454,6 +444,7 @@ p {
     font-size: 15px;
     border-radius: 0.9rem;
 }
+
 
 
 
@@ -517,10 +508,6 @@ p {
     display: none;
 }
 
-.footer-hidden-sm {
-    display: none;
-}
-
 .vocab-cards {
     margin-left: 1px;
 }
@@ -528,6 +515,21 @@ p {
 .cards {
     margin-left: 0;
 }
+
+.bg-congr {
+    top: 5%;
+    left: 0%;
+}
+
+.bg-fail {
+    top: 3%;
+    left: 2%;
+}
+
+.footer-hidden-sm {
+    display: none;
+}
+
 }
 
 @media only screen and (max-width: 880px) {

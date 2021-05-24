@@ -185,9 +185,9 @@ $("#check-lg").click(
       setTimeout(
           function() {
             if (correct === 2) {
-              $("#congratulations").css("display","block").addClass("congratulations-message");
+              $("#congratulations").css("display","block");
             } else {
-              $("#another-try").css("display","block").addClass("another-try-message");
+              $("#another-try").css("display","block");
             }
           },
           2000);
@@ -198,9 +198,9 @@ $("#check-lg").click(
       setTimeout(
           function() {
             if (correctScore === 2) {
-              $("#congratulations").css("display","block").addClass("congratulations-message");
+              $("#congratulations").css("display","block");
             } else {
-              $("#another-try").css("display","block").addClass("another-try-message");
+              $("#another-try").css("display","block");
             }
           },
           2000);

@@ -148,6 +148,28 @@ p {
     margin-left: 0.4rem;
 }
 
+#detailed-instructions-lg {
+    display: none;
+}
+
+#detailed-instructions-sm {
+    display: none;
+}
+
+.detailed-instructions-lg {
+    display: none;
+    z-index: 20;
+    top: 5%;
+    left: 15%;
+    padding: 2rem;;
+    justify-content: center;
+    background-color: #fff;
+    z-index: 20;
+    position: absolute;
+    border-radius: 0.9rem; color: #fff;
+    box-shadow: 0 0 10px 0 #fff inset, 0 0 15px 1px #fff; 
+}
+
 .img-lamp {
     height: 200px;
     margin-top: -10px;

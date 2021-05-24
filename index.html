@@ -44,7 +44,9 @@
                Can you tell what is missing and name it in Czech?</b>
             </p>
             <div>
-            <div class="text-end"><i class="fas fa-question fa-3x question"></i> </div>
+            <div class="text-end">
+               <i class="fas fa-question fa-3x question ms-3" id="instructions-full" onclick="instructions();"></i> 
+            </div>
             <div class="d-grid gap-2 m-0 p-0">
                <a href="get-ready.html" role="button" class="btn bg-mine-light btn-introduction center">
                   <h3>Let´s go!</h3>
@@ -56,12 +58,47 @@
       <div class="container">
          <div class="row">
             <div class="col images-introduction-bottom float-center">
-               <img src="assets/images/apple-removebg.png" alt="Apple" class="col mx-auto d-inline img-apple">
+               <img src="assets/images/apple-removebg.png" alt="Apple" class="col mx-auto img-apple">
                <img src="assets/images/globe-removebg.png" alt="Globe" class="col mx-auto d-inline img-globe">
                <img src="assets/images/kettle-removebg.png" alt="Kettle" class="col mx-auto d-inline img-kettle">
                <img src="assets/images/cat-removebg.png" alt="Cat" class="col mx-auto d-inline img-cat">
             </div>
          </div>
+      </div>
+   </section>
+
+   <section>
+      <div id="detailed-instructions-lg">
+         <button type="button" class="btn-close p-0 m-0" aria-label="Close" onclick="hide();"></button>
+         <h2>Detailed Instructions</h2>
+         <ol>
+            <li>Click on Let´s go and game starts.</li>
+            <li>When loading the new page, timer starts countdown of 40 seconds.</li>
+            <li>Now you need to memorize the 6 vocabulary words in Czech AND their location on the image.</li>
+            <li>When time is up, you will be directly forwarded to next page.</li>
+            <li>The new page shows you two randomly picked words from the previous 6. Your task is to find where these words belong on the image.</li>
+            <li>Grab each word and place them where you believe they belong.</li>
+            <li>Click on "Check answers" to find out the results.</li>
+            <li>If you wish to be given two new words, click on "New words".</li>
+            <li>If you want to go back to the full list of 6 words, click on "Try again"</li>
+         </ol>
+         <p>Note: You are viewing computer version of this game. Mobile devices and tablets are visible in limited mode.</p>
+      </div>
+      <div id="detailed-instructions-sm">
+         <button type="button" class="btn-close p-0 m-0" aria-label="Close" onclick="hide();"></button>
+         <h2>Detailed Instructions</h2>
+         <ol>
+            <li>Click on Let´s go and game starts.</li>
+            <li>When loading the new page, timer starts countdown of 40 seconds.</li>
+            <li>Now you need to memorize the 6 vocabulary words in Czech AND their location on the image.</li>
+            <li>When time is up, you will be directly forwarded to next page.</li>
+            <li>The new page shows you two randomly picked words from the previous 6. Your task is to find where these words belong on the image.</li>
+            <li>Below each word, there is a space to fill in a number, where you believe the item belongs on the image.</li>
+            <li>Click on "Check answers" to find out the results.</li>
+            <li>If you wish to be given two new words, click on "New words".</li>
+            <li>If you want to go back to the full list of 6 words, click on "Try again"</li>
+         </ol>
+         <p>Note: You are viewing limited version for mobile phones and tablets. For full version, please open this game on computer screen.</p>
       </div>
    </section>
    
@@ -95,5 +132,8 @@
             </div>
          </div>
       </footer>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="assets/js/script.js"></script>
    </body>
 </html>

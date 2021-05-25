@@ -270,9 +270,12 @@ The design of the web was my own creation.
 The javascript code was inspired by the following tutorials and advice, in case parts of code were copied, it is marked in the code section directly: 
 - https://www.youtube.com/watch?v=_a4XCarxwr8&t=333s
 - https://www.encodedna.com/javascript/redirect-page-after-a-delay-using-javascript.htm
+- https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array?noredirect=1&lq=1
 - https://stackoverflow.com/questions/5489989/jquery-equivalent-for-window-document-write
+- https://stackoverflow.com/questions/8752541/jquery-delay-after-click/8752555
 - https://www.rapidtables.com/convert/color/hex-to-rgb.html
 - https://www.youtube.com/watch?v=C7NsIRhoWuE
+- https://www.youtube.com/watch?v=1SxMWhqYQ4k&t=1588s
 - https://www.sliderrevolution.com/resources/css-button-hover-effects/
 
 ### Acknowledgements

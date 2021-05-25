@@ -1,3 +1,4 @@
+![Mockup](wireframes-mockups/main_mockup.png)
 
 # VOCAB - MEMORIZE
 A game to test visual memory and at the same time viewers ability to learn new vocabulary words. The rules are: look at the newly presented 6 vocabulary words that are in English and in the Czech language. Try to memorize as many as you can. Observe the image presented and memorize location of each word. You will have 40 seconds for this, when the time is over, a new image appears with missing areas. There are 2 randomly picked words (from the previous 6) and you are supposed to say where does each of the words belong to the image. You can check your succes by clicking on "Check answer", you can also get new 2 randomly picked words (to test your memory again) or you can go back to the previous page to refresh the location and vocabulary words again.
@@ -33,8 +34,8 @@ Both fonts are from [Google Fonts](https://fonts.google.com/ "Google Fonts").
 
 #### Colors
 There are two color schemes on the website. 
-First is to provide certain branding of Vocab-Memorize and is represented on index.html page. The colors are based on turquise color in combination with white and red (mainly on images).
-Branding color are:
+First is to provide certain branding of Vocab-Memorize and is represented on index.html page. The colors are based on turquise color in combination with white and red/pink.
+Branding colors are:
 - font: #04bc89, 
 - background color supporting the overall brand look: #116661, 
 - and white color of fonts and background: #FFFFFF. 
@@ -84,10 +85,11 @@ The game is presented in a playfull yet simple look. There is as little items pr
 
 - **Get ready** 
   - Immeadiately after entering page there is timer that starts the countdown. There is no option to stop the countdown. 
-  - There is the main image of a house where all items are shown. The image was chosen to present the images in context, not only a list of things, therefore I picked an image of a house where all items belong to certain category (and help the used connect them to other topics, memories, etc., simply to create better connections). The image of the house is on purpose with some areas on the sides which helps it to show correctly on different screen sizes.
+  - There is the main image of a house where all items are shown. The image was chosen to present the images in context, not only a list of things, therefore I picked an image of a house where all items belong to certain category (and help the user to connect them to other topics, memories, etc., simply to create better connections). The image of the house is on purpose with some areas on the sides which helps it to show correctly on different screen sizes. Also the image was adapted in order to fit screen in vertical and horizontal view (computers and touch screens) with the ability to keep the same image for both types of devices.
   - Cards with vocabulary words are static, no interaction is available.
-  - There is an option to skip the memorizing part and go directly to game (link to game.html). Reason for this is for second (or more) time users who believe they do not to refresh their memory of the game, or for people who wanted to go back to main page, read again instructions and go back to game. 
+  - There is an option to skip the memorizing part and go directly to game (link to game.html). Reason for this is for second (or more) time users who believe they don´t need to refresh their memory of the game, or for people who wanted to go back to main page, read again instructions and go back to game. 
   - Footer on the bottom of page in branding colors and links to social media. Footer is hidden for smaller screens in order to provide more space for actual vocabulary words and image.
+  - There is actualy an option to cheet in this game and get more time by simply refreshing the page when the timer is set back to 40 seconds. But for now this option is left out.
 
   
 - **Game** 
@@ -99,13 +101,13 @@ The game is presented in a playfull yet simple look. There is as little items pr
     - Therefore the computer version uses drag and drop function where words can be dragged by mouse and moved around. On purpose there is no effect while the items are dragged so that it wouldn´t help the user to see where the correct location of word is. The words can be dragged all around the screen and dropped wherever the user decides without any design effect support.
     - Below the two words there are three buttons triggering some action: 
     1. **Check answers**
-      - Clicking on button triggers function to check what words were placed correctly and a text (styled in branding colors) appears: "You got ´number of correct´ correct". At the same time, those words that were placed correctly show a turquise glow (branding color) in the area that accepts the word. The area that accepts the word is made on purpose much larger than the actual item was in order to provide some kind of flexibility in the game and also to clear the difference between the actual size of the erased item and the card with word.
-      - Around one second after click on "Check answers" a pop up window shows a message: if both words correct, the message says: "Yay! You got it all correct! Congratulations!" and it offers a button to "Start again" (going to index.html page).
-      If one or both the answers were wrong, a pop up message says "You can do better!" and offers an option of "Give it another try!" - button leading to get-ready.html.
+        - Clicking on button triggers function to check what words were placed correctly and a text (styled in branding colors) appears: "You got *number of correct score* correct". At the same time, those words that were placed correctly show a turquise glow (branding color) in the area that accepts the word. The area that accepts the word is made on purpose much larger than the actual item was in order to provide some kind of flexibility in the game and also to clear the difference between the actual size of the erased item and the card with word.
+        - Around one second after click on "Check answers" a pop up window shows a message: if both words correct, the message says: "Yay! You got it all correct! Congratulations!" and it offers a button to "Start again" (going to index.html page).
+        If one or both the answers were wrong, a pop up message says "You can do better!" and offers an option of "Give it another try!" - button leading to get-ready.html.
     2. **New words** 
-      - Button reloads the page and provides two new randomly picked words.
+        - Button reloads the page and provides two new randomly picked words.
     3. **Try again**
-      - Button links the user to get-ready.html in order to provide the list of words and full image again.
+        - Button links the user to get-ready.html in order to provide the list of words and full image again.
 
 - **Touch screens version**
   - Touch screens are more complicated (if possible at all) to create such drag and drop functionality as I implemented to the large screens. Therefore to provide phone and tablet users the option to play the game anyway, a different version of the game is presented. The Touch screen version is mainly implemented on game.html site, the get-ready.html are identical, index.html offers different content of detailed instructions but otherwise is identical also. 
@@ -124,6 +126,7 @@ The following features could be implemented on the current version of game:
   - timer could be added also to the actual game, either as a fixed time or as optional: user could decide how much time he/she needs to response
 
 - words and their random appearance: there could be function that tracks words that were answered/fill in wrong and it could bring these wrong words back until the user answers their correct location
+- more advanced design of drag and drop page - the page and its buttons could use some nicer design as now the side of the page may look a little empty. For current purposes it has been left out, for future implementations it is recommended to develop further.
 - change color in computer version - it would be nicer if after clicking on submit "Check answers" the actual words would change their background color according to if they were placed correctly or wrong
 - many more options in design - e.g. interactivity to item images: on hover they would shake/turn around, interactivity with filling in words - once placed correctly they could change back to the original picture, etc.
 
@@ -136,12 +139,12 @@ The following features could be implemented on the current version of game:
 - **GitHub** - used to store the projects code after being pushed from Git.
 
 - technologies to adapt the images (crop, adding the number circles for touch screen version, removing background etc.): 
-  -**Media Bang Paint Pro**
+  - **Media Bang Paint Pro**
   - **Photoshop Editor**
   - **Painting**
 - **Animate.css** - for animation of lamp on index.html
 - **MS Office Power Point** - used for creating wireframes
-- ** ** for mockups
+- **techsini.com** and **ami.responsivedesign.is** for mockups
 
 
 ## Testing
@@ -150,66 +153,66 @@ The following features could be implemented on the current version of game:
 - https://www.freeformatter.com/html-formatter.html 
 - https://validator.w3.org/ 
   - error found: 
-    index.html: Error: Stray end tag div on line 57
-    get-ready.html - Warning: Section lacks heading - From line 14, column 7; to line 14, column 33 - This is on purpose.
-    game.html - Warning: Section lacks heading - From line 14, column 7; to line 14, column 33 - This is on purpose.
+    - index.html: Error: Stray end tag div on line 57 - corrected
+    - get-ready.html - Warning: Section lacks heading - From line 14, column 7; to line 14, column 33 - This is on purpose.
+    - game.html - Warning: Section lacks heading - From line 14, column 7; to line 14, column 33 - This is on purpose.
 
 - https://jigsaw.w3.org/css-validator/validator
 - https://jshint.com/ 
 
 #### Testing of features:
-Website contains three pages with specific functions.
+Website contains three pages with specific functions. For computer version, features were tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, for touch screens, features were tested on Apple, Sony, Huawei and Xiaomi Redmi devices.
 - **Index.html**
-  - Page loads, lamp shakes from side to side - tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.
-  - On the right bottom area is a question mark icon, clicking opens a new window with detailed instructions of the game. Close button closes the window. c
-  - Footer contains links to social media: Facebook, Youtube, Instagram. Links open in new tab. (Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.)
-  - "Let´s go" button links to next page. (Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.)
+  - Page loads, lamp shakes from side to side - tested, works well.
+  - On the right bottom area is a question mark icon, clicking opens a new window with detailed instructions of the game. Close button closes the window. (tested, works well)
+  - Footer contains links to social media: Facebook, Youtube, Instagram. Links open in new tab. (Tested, works well.)
+  - "Let´s go" button links to next page. (Tested, works well.)
 
   - **Get-ready.html**
-    - When page finished loading, timer starts counting 40 seconds. (Works well in Chrome, Mozzilla Firefox, Safari and Microsoft Edge.)
-    - Option to click on button "Skip and go to game" to stop timer and go directly to /game.html. (Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.)
-    - When 40 seconds pass, timer shows text "TIME OUT" and automatically opens page /game.html. (Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.)
-    - Footer contains links to social media: Facebook, Youtube, Instagram. Links open in new tab. (Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.) 
-    Footer on get-ready.html is visible on large screens only!
+    - When page finished loading, timer starts counting 40 seconds. (Tested, works well.)
+    - Option to click on button "Skip and go to game" to stop timer and go directly to /game.html. (Tested, works well.)
+    - When 40 seconds pass, timer shows text "TIME OUT" and automatically opens page /game.html. (Tested, works well.)
+    - Footer contains links to social media: Facebook, Youtube, Instagram. Links open in new tab. (Tested, works well.)
+    Footer on get-ready.html is visible on large screens only.
   
   - **Game - computer version**
-    - Two randomly picked words are visible - function works well in Chrome, Mozzilla Firefox, Safari and Microsoft Edge.
-    - The two words are draggable with showing cursor:move - function works well in Chrome, Mozzilla Firefox, Safari and Microsoft Edge.
-    - Clicking on "Check answers":
+    - Two randomly picked words are visible. (Tested, works well.)
+    - The two words are draggable with showing cursor:move. (Tested, works well.)
+    - Clicking on "Check answers": (add tested and works well)
       - shows a shadow around area of correctly placed words-answers
       - shows a new text with html: "You got xy correct."
       - after around a second shows up with transition effect a new window: 
           - one in case both the answers are correct and user scores 2. Text with information "Yay! You got it all correct! Congratulations!". Below is a button leading to index.html with text "Start again" 
           - second button with information "You can do better!". Below is a button leading to get-ready.html with text "Give it another try!".
           - close button that closes pop up window and leaves user to possibly look around the page.
-        - Tested properly by clicking on correct and wrong answers, playing around with the draggability and the words in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, functions work well.
+        - Tested properly by clicking on correct and wrong answers, playing around with the draggability and the words, functions work well.
       - other buttons on page: 
-        - "New words" - reloads page and automatically generates two new random words. Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.
-        - "Try again" - leads to get-ready.html in order to provide help to user. Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.
+        - "New words" - reloads page and automatically generates two new random words. (Tested, works well.)
+        - "Try again" - leads to get-ready.html in order to provide help to user. (Tested, works well.)
 
   - **Game - touch screens version**
-    - Two randomly picked words are visible - function tested on Apple, Sony and Huawei devices, works well.
-    - Each of word-card has attached input field to provide area where to write in answer. Input shows a yellowish shadow when tapped on to provide feedback it has been tapped properly. Works well on Apple, Sony and Huawei devices.
-    - When user writes in numbers, he/she may click on "Check answers" button. That triggers following: 
+    - Two randomly picked words are visible. (Tested, works well.)
+    - Each of word-card has attached input field to provide area where to write in answer. Input shows a yellowish shadow when tapped on to provide feedback it has been tapped properly. (Tested, works well.)
+    - When user writes in numbers, he/she may click on "Check answers" button. That triggers following: (tested on all above mentioned devices, works well)
       - shows a new text with html: "You got xy correct."
       - those field that has been filled in correct get new background in greenish color, those fields that were incorrect get new color of redish color in order to show what the exact result is. 
       - after around a second shows up with transition effect a new window: 
           - one in case both the answers are correct and user scores 2. Text with information "Yay! You got it all correct! Congratulations!". Below is a button leading to index.html with text "Start again" 
           - second button with information "You can do better!". Below is a button leading to get-ready.html with text "Give it another try!".
           - close button that closes pop up window and leaves user to possibly look around the page.
-          Tested properly by fillin in correct and wrong answers, works well on Apple, Sony and Huawei devices.
+          Tested properly by fillin in correct and wrong answers, works well.
     - other buttons on page: 
-        - "New words" - reloads page and automatically generates two new random words. Works well on Apple, Sony and Huawei devices.
-        - "Try again" - leads to get-ready.html in order to provide help to user. Works well on Apple, Sony and Huawei devices.
+        - "New words" - reloads page and automatically generates two new random words.(Tested, works well.)
+        - "Try again" - leads to get-ready.html in order to provide help to user. (Tested, works well.)
 
-So far my testing and its limitations (especially to touch screen devices) has not shown any bug or troubles that would be occuring.
+So far my testing and its limitations (especially to number of available touch screen devices) has not shown any bug or troubles that would be occuring.
 
 
 #### Bugs and problems in development:
 - **Responsiveness**
   - Responsiveness created a rather big challenge in developing this game. Despite the simple look of the game, there is many small items that were "floating" around, not wanting to fall into the correct spot. Using Bootstrap was of help but also created unwanted "behaviour" of certain items that were time consuming to fix.
-  - There is a bug with the two versions for tablet users - if a tablet is positioned vertically, the correct "input" version for touch screens appears but if positioned horizontally, the browser reads it as a large screen and presents the drag and drop version.
-  - **Main image - The House** - It was rather difficult to style the size and position of the house to fit well on all screen sizes. Certain devices show the image differently, some of them cropped the image too much and the roof of the house was not visible, therefore the users couldn´t fill in their answers. Certain screen sizes also demand to scroll down to show the entire page. This was a rather challenging task to fix and unfortunately some devices do not show the image in full size.
+  - There is a problem with the two versions for tablet users - if a tablet is positioned vertically, the correct "input" version for touch screens appears but if positioned horizontally, the browser reads it as a large screen and presents the drag and drop version. I adapted the media query size accordingly, changed it to higher breakpoint, but it may still occur on certain devices if they are very large.
+  - **Main image - The House** - It was rather difficult to style the size and position of the house to fit well on all screen sizes. Certain devices show the image differently, some of them cropped the image too much and the roof of the house was not visible, therefore the users couldn´t fill in their answers. Certain screen sizes also demand to scroll down to show the entire page. 
   - **Drag and drop** - drag and drop was an issue as the touch screens do not support this function. Also it was a challenge for me how to show different colors of the correct/wrong answers - if the dropped position was correct. My original idea was to change color of the word cards - if they were place correctly or wrong. Unfortunately later on I realized it would demand more time to develop such functionality and as consulted with tutor, I decided to make this function simpler: only mark which words were placed correct on the droppable area. Those who are wrong are left without any change of color.
   - **Footer** - footer on main page was no issue, but when it came to the game and get-ready sites, it was causing some troubles. I wanted to place the footer under all text but not under the house image. Unfortunately Bootstrap was not helping well with this as it does not provide the tool of "fixed-md-bottom" but only "fixed-bottom" or nothing. Either the footer was shown under the house image or if it was positioned fixed-bottom was in the way of the cards in small screen sizes. In the end I decided to adapt the small screen sizes to show house image smaller and provide space for footer (and also secure the house to be always shown in full size,not being cropped), unfortunately on certain phones the footer can still interfere with the buttons after submitting "Check anwers" (then the score appears and buttons are pushed lower).
    - **Time** - testing showed there was needed to be longer time given to the users. Originally there was 30 seconds for memorizing the vocabulary, but the feedback showed the users needed some time to look at the page and understand the principle. Therefore 10 additional seconds were added to give 40 seconds for memorizing in total. 
@@ -217,13 +220,13 @@ So far my testing and its limitations (especially to touch screen devices) has n
 
 #### Testing User Stories from User Experience (UX): 
 ## Game walkthrough
-**Start** - Index page: the user reads the instructions, possibly clicks on images to see if there is any interaction. In the end clicks on "Let´s go button" that leads him to the game. 
-**Get ready** - User looks at the page, looks at the image and sees the timer is already counting. Then tries to remember as much as possible, timer off, new page loads. 
-**Game**
-  **Computer version** - Now he/she sees two words and missing areas on the image. The instruction encourages him to grab the words and place them correctly. He/she may try to grab them and move with the words around. Eventually tries to find the correct area and place it to the corect location on image. Clicks on "Check answer" and gets results in numbers and also green glow appears on locations that were filled in correctly. If understood well, he/she may want to try to get some new words, clicks on "New words", gets two new random words and plays again. After submitting "Check answer" again and probably waits for what to do next.
-  **Touch screen version** - When getting to Game page, user sees image of the house with numbers on it instead of the original items. User is supposed to write in the correct number to the input area. When clicking on "Check answer", an information pops up with the number of correct answers, at the same time, background of input changes color: green/turquise if correct, red if wrong. 
+- **Start** - Index page: the user reads the instructions, possibly clicks on images to see if there is any interaction. In the end clicks on "Let´s go button" that leads him to the game. 
+- **Get ready** - User looks at the page, looks at the image and sees the timer is already counting. Then tries to remember as much as possible, timer off, new page loads. 
+- **Game**
+  - **Computer version** - Now he/she sees two words and missing areas on the image. The instruction encourages him to grab the words and place them correctly. He/she may try to grab them and move with the words around. Eventually tries to find the correct area and place it to the corect location on image. Clicks on "Check answer" and gets results in numbers and also green glow appears on locations that were filled in correctly. If understood well, he/she may want to try to get some new words, clicks on "New words", gets two new random words and plays again. After submitting "Check answer" again and probably waits for what to do next.
+  - **Touch screen version** - When getting to Game page, user sees image of the house with numbers on it instead of the original items. User is supposed to write in the correct number to the input area. When clicking on "Check answer", an information pops up with the number of correct answers, at the same time, background of input changes color: green/turquise if correct, red if wrong. 
   
-  Three seconds submitting the answers an alert shows up saying this is the end of the game for now and more is coming. User either leaves the game or goes back and tries to memorize the words again.
+  App. one second after submitting the answers a pop up message saying either congratulations or suggesting to repeat the game.
   
 
 ##### First Time Visitor Goals
@@ -300,7 +303,7 @@ Let´s go!
     8. If you wish to be given two new words, click on "New words".
     9. If you want to go back to the full list of 6 words, click on "Try again"
          
-    Note: You are viewing computer version of this game. Mobile devices and tablets are visible in limited mode.
+    You are viewing computer version of this game. Mobile devices and tablets are visible in limited mode.
 
   *Touch screens version:*
     1. Click on "Let´s go" and the game starts.
@@ -314,7 +317,7 @@ Let´s go!
     8. If you wish to be given two new words, click on "New words".
     9. If you want to go back to the full list of 6 words, click on "Try again"
         
-    Note: You are viewing limited version for mobile phones and tablets. For full version, please open this game on computer screen.
+    You are viewing limited version for mobile phones and tablets. For full version, please open this game on computer screen.
     
 
 **FOOTER**

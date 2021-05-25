@@ -182,11 +182,30 @@ Website contains three pages with specific functions.
       - shows a shadow around area of correctly placed words-answers
       - shows a new text with html: "You got xy correct."
       - after around a second shows up with transition effect a new window: 
-          - one in case both the answers are correct and user scores 2. Text with nformation "Yay! You got it all correct! Congratulations!" Below is a button leading to index.html with text "Start again"
-          - second button with information
+          - one in case both the answers are correct and user scores 2. Text with information "Yay! You got it all correct! Congratulations!". Below is a button leading to index.html with text "Start again" 
+          - second button with information "You can do better!". Below is a button leading to get-ready.html with text "Give it another try!".
+          - close button that closes pop up window and leaves user to possibly look around the page.
+        - Tested properly by clicking on correct and wrong answers, playing around with the draggability and the words in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, functions work well.
+      - other buttons on page: 
+        - "New words" - reloads page and automatically generates two new random words. Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.
+        - "Try again" - leads to get-ready.html in order to provide help to user. Tested in Chrome, Mozzilla Firefox, Safari and Microsoft Edge, works well.
 
-The website was opened in Chrome, Mozzilla Firefox, Safari and Microsoft Edge to test all features and their functions. Also cache was cleared every time before I loaded the page. All functions, links and buttons work well. 
-Main concern was the functionality of the game and showing the results. It was tested on many devices, brands sent to family members in order to receive feedback.
+  - **Game - touch screens version**
+    - Two randomly picked words are visible - function tested on Apple, Sony and Huawei devices, works well.
+    - Each of word-card has attached input field to provide area where to write in answer. Input shows a yellowish shadow when tapped on to provide feedback it has been tapped properly. Works well on Apple, Sony and Huawei devices.
+    - When user writes in numbers, he/she may click on "Check answers" button. That triggers following: 
+      - shows a new text with html: "You got xy correct."
+      - those field that has been filled in correct get new background in greenish color, those fields that were incorrect get new color of redish color in order to show what the exact result is. 
+      - after around a second shows up with transition effect a new window: 
+          - one in case both the answers are correct and user scores 2. Text with information "Yay! You got it all correct! Congratulations!". Below is a button leading to index.html with text "Start again" 
+          - second button with information "You can do better!". Below is a button leading to get-ready.html with text "Give it another try!".
+          - close button that closes pop up window and leaves user to possibly look around the page.
+          Tested properly by fillin in correct and wrong answers, works well on Apple, Sony and Huawei devices.
+    - other buttons on page: 
+        - "New words" - reloads page and automatically generates two new random words. Works well on Apple, Sony and Huawei devices.
+        - "Try again" - leads to get-ready.html in order to provide help to user. Works well on Apple, Sony and Huawei devices.
+
+So far my testing and its limitations (especially to touch screen devices) has not shown any bug or troubles that would be occuring.
 
 #### Testing User Stories from User Experience (UX) Section: 
 ## Game walkthrough
@@ -200,11 +219,10 @@ Main concern was the functionality of the game and showing the results. It was t
   
 
 ##### First Time Visitor Goals
+First time visitor would most likely go through the all stages and would not skip anything forward. The goal is to learn about the game and give a try of playing it.
 
 ##### Second Time Visitor Goals
-
-### Problems during testing and development
-
+Visitors who return to page would most likely skip the index.html and its introduction (in case they understood well during the previous visit). They would either spend time on memorizing words again, or possibly just skip directly to the game.html page where they can test their progress in knowledge and memory.
 
 ## Deployment
 The website was developed on hosting page GitHub with a help of GitPod. Therefore the deployed page is hosted on Github Pages.
@@ -215,14 +233,13 @@ Now the website is published on: https://kamilahase.github.io/MS2-Vocab-Memorize
 The project was deployed to GitHub Pages using the following steps:
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-3. Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-4. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Scroll down on the left list of options to find "Pages" section, alternatively scroll down the Settings page until you locate the "GitHub Pages" Section. 
 5. Under "Source", click the dropdown called "None" and select "Master Branch".
 6. The page will automatically refresh.
 7. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
-1. By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+1. By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 2. Log in to GitHub and locate the GitHub Repository
 3. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 4. You should now have a copy of the original repository in your GitHub account.
@@ -237,8 +254,6 @@ The project was deployed to GitHub Pages using the following steps:
 7. $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 8. Press Enter. Your local clone will be created.
 
-
-
 ## Credits
 The design of the web was my own creation. 
 The javascript code was inspired by the following tutorials and advice, in case parts of code were copied, it is marked in the code section directly: 
@@ -249,11 +264,8 @@ The javascript code was inspired by the following tutorials and advice, in case 
 - https://www.youtube.com/watch?v=C7NsIRhoWuE
 
 ### Acknowledgements
-Many thanks to my mentor who provided me with insprational feedback.
+Many thanks to mentor Marcel who provided me with inspirational feedback, valuable tips and boosted my motivation.
 Many thanks to tutors of Code Institue who´s help was highly appreciated and saved my nerves.
-
-### Media
-
 
 ## Full content
 
@@ -266,6 +278,35 @@ You will be given two tasks. To memorize a picture that will appear AND to learn
 
 Let´s go!
 
+*Click on question mark icon provides detailed information:* 
+  *Computer version:* 
+    1. Click on "Let´s go" and the game starts.
+    2. When the coming page finishes loading, timer starts countdown of 40 seconds.
+    3. Now you need to memorize the 6 vocabulary words in Czech AND their location on the image.
+    4. When time is up, you will be directly forwarded to next page.
+    5. The new page shows two randomly picked words from the previous 6.
+       Your task is to find where these words belong on the image.
+    6. Grab each word and place it where you believe is it´s original position.
+    7. Click on "Check answers" to find out the results.
+    8. If you wish to be given two new words, click on "New words".
+    9. If you want to go back to the full list of 6 words, click on "Try again"
+         
+    Note: You are viewing computer version of this game. Mobile devices and tablets are visible in limited mode.
+
+  *Touch screens version:*
+    1. Click on "Let´s go" and the game starts.
+    2. When the coming page finishes loading, timer starts countdown of 40 seconds.
+    3. Now you need to memorize the 6 vocabulary words in Czech AND their location on the image.
+    4. When time is up, you will be directly forwarded to next page.
+    5. The new page shows two randomly picked words from the previous 6. 
+       Your task is to find where these words belong on the image.
+    6. Below each word, there is a space to fill in a number, where you believe is the original position of the item.
+    7. Click on "Check answers" to find out the results.
+    8. If you wish to be given two new words, click on "New words".
+    9. If you want to go back to the full list of 6 words, click on "Try again"
+        
+    Note: You are viewing limited version for mobile phones and tablets. For full version, please open this game on computer screen.
+    
 
 **FOOTER**
 
@@ -292,7 +333,7 @@ Grab the missing items and place them where they belong. / Where do the missing 
 
 Check answers - New words - Try again. 
 
-Alert: This is the end of game for now. More coming soon! But..you can always practice this one again. :-)
-
+Yay! You got it all correct! Congratulations! - Start again
+/ You can do better! - Give it another try!
 
 

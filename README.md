@@ -1,10 +1,10 @@
 
 # VOCAB - MEMORIZE
-A game to test visual memory and at the same time viewers ability to learn new vocabulary words. The rules are: look at the newly presented 6 vocabulary words that are in English and in Czech language. Try to memorize as many as you can. Observe the image presented and memorize location of each word. You will have 40 seconds for this, when the time is over, a new image appears with missing areas. There are 2 randomly picked words (from the previous 6) and you are supposed to say where does each of the words belong to the image. You can check your succes by clicking on "Check answer", you can also get new 2 randomly picked words (to test your memory again) or you can go back to the front page to read instructions again.
+A game to test visual memory and at the same time viewers ability to learn new vocabulary words. The rules are: look at the newly presented 6 vocabulary words that are in English and in the Czech language. Try to memorize as many as you can. Observe the image presented and memorize location of each word. You will have 40 seconds for this, when the time is over, a new image appears with missing areas. There are 2 randomly picked words (from the previous 6) and you are supposed to say where does each of the words belong to the image. You can check your succes by clicking on "Check answer", you can also get new 2 randomly picked words (to test your memory again) or you can go back to the previous page to refresh the location and vocabulary words again.
 
 The aim of this game is to help people who are learning new languages develop their vocabulary in a playfull way. It is especially developed for people with visual memory who associate the learning material to images and later on are reminded of the actual image and the newly learned content. 
 
-The interactions that is offered to the user are developed in two ways according to their device. First version is for larger screens - laptops and computers where the user is encouraged to actually grab the new words and find their correct location on presented image. For touch screen there is a "fill in" version. The main image contains numbers where items were erased and the user is supposed to write in a number, where the randomly picked word belongs.
+The interactions that is offered to the user are developed in two ways according to their device. First version is for larger screens - laptops and computers where the user is encouraged to actually grab the new words and find their correct location on presented image. For touch screens there is a "fill in" version. The main image contains numbers where items were erased and the user is supposed to write in a number, where the randomly picked word belongs.
 
 The presented game is a trial, or an example of a possible more expanded version with many images and different vocabulary words.
 The game is currently developed for learning vocabulary in Czech language but can be easily adapted to more languages.
@@ -18,17 +18,17 @@ As mentioned, the game is developed as an example of an expanded version so in t
     3. English speaking people who are curious about difficulty of the Czech language and want to test if they are capable of learning a few words.
     4. English speaking people who already know the Czech language and only want to test or refresh their skills. 
     5. Czech speaking people who want to check their knowledge of few English words and mostly test their visual memory. 
-    6. Anybody that wants to check the type of game there is. 
+    6. Anybody that wants to check out the type of game there is. 
 
   - Expected goals of second (and more) time page visitors:
     1. English speaking people who want to check their progress in learning Czech language. 
-    2. Anybody that wants to check the game.
+    2. Anybody that wants to check out the game.
   
 
 ### Design of the website:
 #### Typography
 - The text on website is on purpose as short as possible in order to lead focus on the actual game and actions there. Therefore there is one main font to provide unite effect: 'Allerta Stencil'.
-- The main page contains also instructions (longer text) and to provide better user experience, for longer text is used font 'Roboto' ('Allerta Stencil' is kept only for headings, buttons and footer).
+- The main page (index.html) contains also instructions (longer text) and to provide better user experience, for longer text is used font 'Roboto' ('Allerta Stencil' is kept only for headings, buttons and footer).
 Both fonts are from [Google Fonts](https://fonts.google.com/ "Google Fonts").
 
 #### Colors
@@ -58,19 +58,28 @@ All the images presented on the website were adapted from originally two images,
 All adaptation of pictures to fit the website and its purposes were made later on by me.
 
 #### Wireframes
-
+1. [index.html](wireframes-mockups/index.html_wireframe.png)
+2. [get-ready.html](wireframes-mockups/get-ready.html_wireframe.png)
+4. [game.html](wireframes-mockups/game.html_wireframe.png)
+5. [Answers - game.html](wireframes-mockups/game.html_answers_wireframe.png)
 
 #### Mockups
-
+1. [index.html](wireframes-mockups/index.html_mockup.png)
+2. [Detailed instructions - index.html](wireframes-mockups/index.html_popup_mockup.png)
+3. [get-ready.html](wireframes-mockups/get-ready.html_mockup.png)
+4. [game.html](wireframes-mockups/game.html_mockup.png)
+5. [Answers - game.html](wireframes-mockups/game.html_answers_mockup.png)
 
 ## Features
 The game is presented in a playfull yet simple look. There is as little items presented possible in order to lead the focus on the actual game part. 
+
 ### Existing Features
 
 - **Main page - Index.html** 
   -  Introduces the playfull feeling of a game where there will be not only vocabulary words to be remembered but also visual items - therefore there are three areas important: main logo and name of game presented by logo Vocab-Memorize in large size, instructions already hinting the style of brand - use of colors and font and single images representing the need of memorize new words but also their area on website. 
   - There is no navbar on purpose in order to bring in "player mode", a little bit of "being led" feeling, loss of control. 
-  - link to start the game on button "Let´s go" leads to new page get-ready.html
+  - Link to start the game on button "Let´s go" leads to new page get-ready.html
+  - A question mark icon presents after clicking a pop up window with detailed instructions how to play the game.
   - Footer to present links to social media - external resources of information about the game (fictional) and Copyright (fictional)
 
 - **Get ready** 
@@ -91,32 +100,32 @@ The game is presented in a playfull yet simple look. There is as little items pr
     - Below the two words there are three buttons triggering some action: 
     1. **Check answers**
       - Clicking on button triggers function to check what words were placed correctly and a text (styled in branding colors) appears: "You got ´number of correct´ correct". At the same time, those words that were placed correctly show a turquise glow (branding color) in the area that accepts the word. The area that accepts the word is made on purpose much larger than the actual item was in order to provide some kind of flexibility in the game and also to clear the difference between the actual size of the erased item and the card with word.
-      - As there is no official end to the game, 3 seconds after clicking on "Check answers" appears an alert with information: "This is the end of game for now. More coming soon! But..you can always practice this one again. :-)".  
+      - Around one second after click on "Check answers" a pop up window shows a message: if both words correct, the message says: "Yay! You got it all correct! Congratulations!" and it offers a button to "Start again" (going to index.html page).
+      If one or both the answers were wrong, a pop up message says "You can do better!" and offers an option of "Give it another try!" - button leading to get-ready.html.
     2. **New words** 
       - Button reloads the page and provides two new randomly picked words.
     3. **Try again**
-      - Button links the user to main page - index.html
+      - Button links the user to get-ready.html in order to provide the list of words and full image again.
 
 - **Touch screens version**
-  - Touch screens are more complicated (if possible at all) to create such drag and drop functionality as I implemented to the large screens. Therefore to provide phone and tablet users the option to play the game anyway, a different version of the game is presented. The Touch screen version is implemented only on game.html site, the get-ready.html and index.html are the same for both versions.
+  - Touch screens are more complicated (if possible at all) to create such drag and drop functionality as I implemented to the large screens. Therefore to provide phone and tablet users the option to play the game anyway, a different version of the game is presented. The Touch screen version is mainly implemented on game.html site, the get-ready.html are identical, index.html offers different content of detailed instructions but otherwise is identical also. 
   - Touch screens show different version of main house image - the items were erased but on the blank areas was added a sign - circle with a number in the middle marking a location of an erased item.
-  - Two random words (from the previous list of 6) are also presented, but there is no drag and drop funcitonality, there is added an input field where user simply writes in number where this specific item belongs on the image.
+  - Two random words (from the previous list of 6) are also presented, but there is no drag and drop functionality, there is added an input field where user simply writes in number where this specific item belongs on the image.
   - The instruction is therefore different: "Where do the missing items belong? Write in the number."
   - The buttons are almost identical as on computer version (see above), only **Check answers** varies: after submiting the answers, the input background changes accordingly if the number filled in is correct or wrong. Colors of input background fit the branding style.
+  Pop up windows are identical as in computer version.
 
    
 ### Features Left to Implement
 The game provides many creative future implementations such expansions with more images and words, adding other sections, new languages, more profound feedback of the progress of learning (statistics, hints what area to focus on, button at the end leading to next image etc.). 
 The following features could be implemented on the current version of game:
 - timer: 
-  - user could decide how much time he/she needs to memore the words
-  - timer could be added also to the actual game, either as a fixed time or user could decide how much time he/she needs
+  - user could decide how much time he/she needs to memorize the words
+  - timer could be added also to the actual game, either as a fixed time or as optional: user could decide how much time he/she needs to response
 
 - words and their random appearance: there could be function that tracks words that were answered/fill in wrong and it could bring these wrong words back until the user answers their correct location
-- alert functionality (after submit) should be added to touch screens
 - change color in computer version - it would be nicer if after clicking on submit "Check answers" the actual words would change their background color according to if they were placed correctly or wrong
-- button with detailed instructions on game section
-- many more options in design - e.g. add movement to the lamp in index.html, add interactivity to item images: e.g. on hover they would shake/turn around etc.
+- many more options in design - e.g. interactivity to item images: on hover they would shake/turn around, interactivity with filling in words - once placed correctly they could change back to the original picture, etc.
 
 ## Technologies Used
 (adapted accordingly by: https://github.com/Code-Institute-Solutions/SampleREADME)
@@ -130,24 +139,12 @@ The following features could be implemented on the current version of game:
   -**Media Bang Paint Pro**
   - **Photoshop Editor**
   - **Painting**
-
+- **Animate.css** - for animation of lamp on index.html
 - **MS Office Power Point** - used for creating wireframes
 - ** ** for mockups
 
 
 ## Testing
-
-**Bugs and problems in development:** 
-- **Responsiveness**
-  - Responsiveness created a rather big challenge in developing this game. Despite the simple look of the game, there is many small items that were "floating" around, not wanting to fall into the correct spot. Using Bootstrap was of help but also created unwanted "behaviour" of certain items that were time consuming to fix.
-  - There is a bug with the two versions for tablet users - if a tablet is positioned vertically, the correct "input" version for touch screens appears but if positioned horizontally, the browser reads it as a large screen and presents the drag and drop version.
-  - **Main image - The House** - It was rather difficult to style the size and position of the house to fit well on all screen sizes. Certain devices show the image differently, some of them cropped the image too much and the roof of the house was not visible, therefore the users couldn´t fill in their answers. Certain screen sizes also demand to scroll down to show the entire page. This was a rather challenging task to fix and unfortunately some devices do not show the image in full size.
-  - **Drag and drop** - drag and drop was an issue as the touch screens do not support this function. Also it was a challenge for me how to show different colors of the correct/wrong answers - if the dropped position was correct. My original idea was to change color of the word cards - if they were place correctly or wrong. Unfortunately later on I realized it would demand more time to develop such functionality and as consulted with tutor, I decided to make this function simpler: only mark which words were placed correct on the droppable area. Those who are wrong are left without any change of color.
-  - **Footer** - footer on main page was no issue, but when it came to the game and get-ready sites, it was causing some troubles. I wanted to place the footer under all text but not under the house image. Unfortunately Bootstrap was not helping well with this as it does not provide the tool of "fixed-md-bottom" but only "fixed-bottom" or nothing. Either the footer was shown under the house image or if it was positioned fixed-bottom was in the way of the cards in small screen sizes. In the end I decided to adapt the small screen sizes to show house image smaller and provide space for footer (and also secure the house to be always shown in full size,not being cropped), unfortunately on certain phones the footer can still interfere with the buttons after submitting "Check anwers" (then the score appears and buttons are pushed lower).
-   - **Time** - testing showed there was needed to be longer time given to the users. Originally there was 30 seconds for memorizing the vocabulary, but the feedback showed the users needed some time to look at the page and understand the principle. Therefore 10 additional seconds were added to give 40 seconds for memorizing in total. 
-  - **Level of skills** - testing showed that the users need to have some general experience with using computers and touch screens. Those (mainly of older age) were not that much familiar with scrolling the phone screen and therefore moving the image up and down to see the entire page. Also to some of them it was difficult to understand how to write in the numbers. According to this feedback I made the house image smaller so that it will be as visible in full size.
-
-- alert is visible only on large screens.. 
 
 #### Website has been tested and corrected by: 
 - https://www.freeformatter.com/html-formatter.html 
@@ -207,7 +204,18 @@ Website contains three pages with specific functions.
 
 So far my testing and its limitations (especially to touch screen devices) has not shown any bug or troubles that would be occuring.
 
-#### Testing User Stories from User Experience (UX) Section: 
+
+#### Bugs and problems in development:
+- **Responsiveness**
+  - Responsiveness created a rather big challenge in developing this game. Despite the simple look of the game, there is many small items that were "floating" around, not wanting to fall into the correct spot. Using Bootstrap was of help but also created unwanted "behaviour" of certain items that were time consuming to fix.
+  - There is a bug with the two versions for tablet users - if a tablet is positioned vertically, the correct "input" version for touch screens appears but if positioned horizontally, the browser reads it as a large screen and presents the drag and drop version.
+  - **Main image - The House** - It was rather difficult to style the size and position of the house to fit well on all screen sizes. Certain devices show the image differently, some of them cropped the image too much and the roof of the house was not visible, therefore the users couldn´t fill in their answers. Certain screen sizes also demand to scroll down to show the entire page. This was a rather challenging task to fix and unfortunately some devices do not show the image in full size.
+  - **Drag and drop** - drag and drop was an issue as the touch screens do not support this function. Also it was a challenge for me how to show different colors of the correct/wrong answers - if the dropped position was correct. My original idea was to change color of the word cards - if they were place correctly or wrong. Unfortunately later on I realized it would demand more time to develop such functionality and as consulted with tutor, I decided to make this function simpler: only mark which words were placed correct on the droppable area. Those who are wrong are left without any change of color.
+  - **Footer** - footer on main page was no issue, but when it came to the game and get-ready sites, it was causing some troubles. I wanted to place the footer under all text but not under the house image. Unfortunately Bootstrap was not helping well with this as it does not provide the tool of "fixed-md-bottom" but only "fixed-bottom" or nothing. Either the footer was shown under the house image or if it was positioned fixed-bottom was in the way of the cards in small screen sizes. In the end I decided to adapt the small screen sizes to show house image smaller and provide space for footer (and also secure the house to be always shown in full size,not being cropped), unfortunately on certain phones the footer can still interfere with the buttons after submitting "Check anwers" (then the score appears and buttons are pushed lower).
+   - **Time** - testing showed there was needed to be longer time given to the users. Originally there was 30 seconds for memorizing the vocabulary, but the feedback showed the users needed some time to look at the page and understand the principle. Therefore 10 additional seconds were added to give 40 seconds for memorizing in total. 
+  - **Level of skills** - testing showed that the users need to have some general experience with using computers and touch screens. Those (mainly of older age) were not that much familiar with scrolling the phone screen and therefore moving the image up and down to see the entire page. Also to some of them it was difficult to understand how to write in the numbers. According to this feedback I made the house image smaller so that it will be as visible in full size.
+
+#### Testing User Stories from User Experience (UX): 
 ## Game walkthrough
 **Start** - Index page: the user reads the instructions, possibly clicks on images to see if there is any interaction. In the end clicks on "Let´s go button" that leads him to the game. 
 **Get ready** - User looks at the page, looks at the image and sees the timer is already counting. Then tries to remember as much as possible, timer off, new page loads. 
@@ -262,6 +270,7 @@ The javascript code was inspired by the following tutorials and advice, in case 
 - https://stackoverflow.com/questions/5489989/jquery-equivalent-for-window-document-write
 - https://www.rapidtables.com/convert/color/hex-to-rgb.html
 - https://www.youtube.com/watch?v=C7NsIRhoWuE
+- https://www.sliderrevolution.com/resources/css-button-hover-effects/
 
 ### Acknowledgements
 Many thanks to mentor Marcel who provided me with inspirational feedback, valuable tips and boosted my motivation.

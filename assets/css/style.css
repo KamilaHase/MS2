@@ -37,7 +37,7 @@ p {
 }
 
 .h2-pink {
- color: #ea515b;
+    color: #ea515b;
 }
 
 ol {
@@ -203,9 +203,6 @@ ol {
 }
 
 
-
-
-
 /*--------------------------------------------------------GET READY--------------*/
 .get-ready-body-color {
     background-color: #f5f5f5;
@@ -259,7 +256,6 @@ ol {
     color: #FFFFFF;
 }
 
-
 /*----------------------------------GAME----------------------------------------------*/
 .house-hero-picture-game {
     background-image: url("../images/main-house-horizontal-erased.png");
@@ -284,7 +280,7 @@ ol {
     visibility: hidden;
     background-color: transparent;
     border-radius: 50px; color: #04bc89;
-    box-shadow: 0 0 10px 0 #04bc89 inset, 0 0 20px 1px #04bc89; border: 1px solid #04bc88; /*-glow effect adapted from https://www.sliderrevolution.com/resources/css-button-hover-effects/ ---*/
+    box-shadow: 0 0 10px 0 #04bc89 inset, 0 0 20px 1px #04bc89; border: 1px solid #04bc88; /*---glow effect adapted from https://www.sliderrevolution.com/resources/css-button-hover-effects/ ---*/
 }
 
 #drop-postylka {
@@ -426,12 +422,7 @@ ol {
     border-bottom-left-radius: 0.9rem;
 }
 
-
 /*-----action buttons at the end of game, pop-ups on click---*/
-/*
-.btns-action {
-    margin-top: 6vh;
-} */
 
 .after-submit {
     color: #04bc89;
@@ -447,6 +438,7 @@ ol {
 #congratulations {
     display: none;
 }
+
 .bg-congr {
     top: 5%;
     left: 15%;
@@ -506,8 +498,6 @@ ol {
     font-size: 15px;
     border-radius: 0.9rem;
 }
-
-
 
 
 /*--------------------------------------------------------Media queries---------------------------*/
@@ -599,7 +589,6 @@ ol {
 .footer-hidden-sm {
     display: none;
 }
-
 }
 
 @media only screen and (max-width: 880px) {
@@ -607,40 +596,38 @@ ol {
     font-size: 35px;
     margin-top: 2vw;
     margin-left: 1vw;
-    }
+}
 
 .introduction-card {
     margin-top: 2vw;
     padding: 0.75vw;
-    }
+}
 
-    .img-lamp {
-        height: 10vw;
-    }
-  }
+.img-lamp {
+    height: 10vw;
+}
+}
 
-  @media(max-width: 700px) {
-
-    body {
-        height: 100vh;
-    }
-
+@media(max-width: 700px) {
+body {
+    height: 100vh;
+}
     
-    .img-lamp {
-        height: 20vw;
-    }
+.img-lamp {
+    height: 20vw;
+}
 
-    .images-introduction-bottom {
-        margin-top: 1rem;
-    }
+.images-introduction-bottom {
+    margin-top: 1rem;
+}
 
-    #motto {
-        padding-top: 1rem;
-     }
+#motto {
+    padding-top: 1rem;
+}
      
-     .game-section {
-        max-height: 400px;
-    }
+.game-section {
+    max-height: 400px;
+}
      
 .introduction-card {
     padding-left: 1rem;
@@ -648,18 +635,18 @@ ol {
 }
 }
 
-  @media(max-width: 340px) {
-    .img-lamp {
-        display: none;
-    }
-  }
+@media(max-width: 340px) {
+.img-lamp {
+    display: none;
+}
+}
 
-  @media(min-width: 1100px) {
-  #instructions-full-sm {
-      display: none;
-  }
+@media(min-width: 1100px) {
+#instructions-full-sm {
+    display: none;
+}
   
-  .instructions-sm {
+.instructions-sm {
     display: none;
 }
 
@@ -695,12 +682,12 @@ ol {
 #input-lednice {
     display: none;
 }
-  }
+}
 
-  @media(min-width: 2000px) {
-    .house-hero-picture-game {
-        max-height: 30vh;
-    }
-    } 
+@media(min-width: 2000px) {
+.house-hero-picture-game {
+    max-height: 30vh;
+}
+} 
 
   

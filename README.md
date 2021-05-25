@@ -302,7 +302,6 @@ Let´s go!
     7. Click on "Check answers" to find out the results.
     8. If you wish to be given two new words, click on "New words".
     9. If you want to go back to the full list of 6 words, click on "Try again"
-         
     You are viewing computer version of this game. Mobile devices and tablets are visible in limited mode.
 
   *Touch screens version:*
@@ -316,7 +315,6 @@ Let´s go!
     7. Click on "Check answers" to find out the results.
     8. If you wish to be given two new words, click on "New words".
     9. If you want to go back to the full list of 6 words, click on "Try again"
-        
     You are viewing limited version for mobile phones and tablets. For full version, please open this game on computer screen.
     
 

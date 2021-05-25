@@ -292,30 +292,32 @@ Let´s go!
 
 *Click on question mark icon provides detailed information:* 
   *Computer version:* 
-    1. Click on "Let´s go" and the game starts.
-    2. When the coming page finishes loading, timer starts countdown of 40 seconds.
-    3. Now you need to memorize the 6 vocabulary words in Czech AND their location on the image.
-    4. When time is up, you will be directly forwarded to next page.
-    5. The new page shows two randomly picked words from the previous 6.
+  1. Click on "Let´s go" and the game starts.
+  2. When the coming page finishes loading, timer starts countdown of 40 seconds.
+  3. Now you need to memorize the 6 vocabulary words in Czech AND their location on the image.
+  4. When time is up, you will be directly forwarded to next page.
+  5. The new page shows two randomly picked words from the previous 6.
        Your task is to find where these words belong on the image.
-    6. Grab each word and place it where you believe is it´s original position.
-    7. Click on "Check answers" to find out the results.
-    8. If you wish to be given two new words, click on "New words".
-    9. If you want to go back to the full list of 6 words, click on "Try again"
-    You are viewing computer version of this game. Mobile devices and tablets are visible in limited mode.
+  6. Grab each word and place it where you believe is it´s original position.
+  7. Click on "Check answers" to find out the results.
+  8. If you wish to be given two new words, click on "New words".
+  9. If you want to go back to the full list of 6 words, click on "Try again"
+  
+  - You are viewing computer version of this game. Mobile devices and tablets are visible in limited mode.
 
   *Touch screens version:*
-    1. Click on "Let´s go" and the game starts.
-    2. When the coming page finishes loading, timer starts countdown of 40 seconds.
-    3. Now you need to memorize the 6 vocabulary words in Czech AND their location on the image.
-    4. When time is up, you will be directly forwarded to next page.
-    5. The new page shows two randomly picked words from the previous 6. 
+  1. Click on "Let´s go" and the game starts.
+  2. When the coming page finishes loading, timer starts countdown of 40 seconds.
+  3. Now you need to memorize the 6 vocabulary words in Czech AND their location on the image.
+  4. When time is up, you will be directly forwarded to next page.
+  5. The new page shows two randomly picked words from the previous 6. 
        Your task is to find where these words belong on the image.
-    6. Below each word, there is a space to fill in a number, where you believe is the original position of the item.
-    7. Click on "Check answers" to find out the results.
-    8. If you wish to be given two new words, click on "New words".
-    9. If you want to go back to the full list of 6 words, click on "Try again"
-    You are viewing limited version for mobile phones and tablets. For full version, please open this game on computer screen.
+  6. Below each word, there is a space to fill in a number, where you believe is the original position of the item.
+  7. Click on "Check answers" to find out the results.
+  8. If you wish to be given two new words, click on "New words".
+  9. If you want to go back to the full list of 6 words, click on "Try again"
+  
+  -  You are viewing limited version for mobile phones and tablets. For full version, please open this game on computer screen.
     
 
 **FOOTER**
